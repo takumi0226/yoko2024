@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing choirbot.egg-info/PKG-INFO
+writing dependency_links to choirbot.egg-info/dependency_links.txt
+writing entry points to choirbot.egg-info/entry_points.txt
+writing requirements to choirbot.egg-info/requires.txt
+writing top-level names to choirbot.egg-info/top_level.txt
+reading manifest file 'choirbot.egg-info/SOURCES.txt'
+writing manifest file 'choirbot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yoko/turtlebot3_ws/src/install/choirbot/lib/python3.8/site-packages/choirbot.egg-link (link to .)
+
+Installed /home/yoko/turtlebot3_ws/src/build/choirbot
+running install_data

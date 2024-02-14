@@ -1,0 +1,161 @@
+[0.215s] Invoking command in '/home/yoko/turtlebot3_ws/build/choirbot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/choirbot_interfaces -- -j8 -l8
+[1.746s] [  1%] Built target choirbot_interfaces__cpp
+[1.954s] [ 12%] Built target choirbot_interfaces__rosidl_typesupport_cpp
+[2.077s] [ 23%] Built target choirbot_interfaces__rosidl_generator_c
+[2.190s] [ 34%] Built target choirbot_interfaces__rosidl_typesupport_introspection_cpp
+[2.219s] [ 46%] Built target choirbot_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.399s] [ 57%] Built target choirbot_interfaces__rosidl_typesupport_fastrtps_c
+[2.417s] [ 68%] Built target choirbot_interfaces__rosidl_typesupport_c
+[2.428s] [ 79%] Built target choirbot_interfaces__rosidl_typesupport_introspection_c
+[2.541s] [ 79%] Built target choirbot_interfaces
+[2.626s] [ 80%] Built target choirbot_interfaces__py
+[2.838s] [ 90%] Built target choirbot_interfaces__python
+[2.907s] [ 93%] Built target choirbot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.041s] [ 96%] Built target choirbot_interfaces__rosidl_typesupport_c__pyext
+[3.108s] [100%] Built target choirbot_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.124s] Invoked command in '/home/yoko/turtlebot3_ws/build/choirbot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/choirbot_interfaces -- -j8 -l8
+[3.287s] Invoking command in '/home/yoko/turtlebot3_ws/build/choirbot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/choirbot_interfaces
+[3.301s] -- Install configuration: ""
+[3.333s] -- Execute custom install script
+[3.353s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/ament_index/resource_index/rosidl_interfaces/choirbot_interfaces
+[3.355s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__functions.h
+[3.355s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__struct.h
+[3.356s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__type_support.h
+[3.356s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/position_action.h
+[3.370s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__functions.h
+[3.371s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__struct.h
+[3.372s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__type_support.h
+[3.373s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__functions.h
+[3.373s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__struct.h
+[3.387s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__type_support.h
+[3.387s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/position_task.h
+[3.389s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/position_task_array.h
+[3.389s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.390s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__functions.h
+[3.404s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__struct.h
+[3.404s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__type_support.h
+[3.405s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__functions.h
+[3.405s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__struct.h
+[3.406s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__type_support.h
+[3.420s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/position_task_service.h
+[3.421s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/task_completion_service.h
+[3.422s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/library_path.sh
+[3.422s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/library_path.dsv
+[3.424s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__rosidl_typesupport_fastrtps_c.h
+[3.424s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__rosidl_typesupport_fastrtps_c.h
+[3.437s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__rosidl_typesupport_fastrtps_c.h
+[3.439s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.439s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__rosidl_typesupport_fastrtps_c.h
+[3.440s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__rosidl_typesupport_fastrtps_c.h
+[3.460s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.462s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__rosidl_typesupport_fastrtps_cpp.hpp
+[3.463s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__rosidl_typesupport_fastrtps_cpp.hpp
+[3.463s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.479s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.480s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__rosidl_typesupport_fastrtps_cpp.hpp
+[3.481s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__rosidl_typesupport_fastrtps_cpp.hpp
+[3.482s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.483s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__rosidl_typesupport_introspection_c.h
+[3.484s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__rosidl_typesupport_introspection_c.h
+[3.484s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__rosidl_typesupport_introspection_c.h
+[3.496s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.497s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__rosidl_typesupport_introspection_c.h
+[3.498s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__rosidl_typesupport_introspection_c.h
+[3.500s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__builder.hpp
+[3.500s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__struct.hpp
+[3.513s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__traits.hpp
+[3.514s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/position_action.hpp
+[3.515s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__builder.hpp
+[3.516s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__struct.hpp
+[3.516s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__traits.hpp
+[3.530s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__builder.hpp
+[3.531s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__struct.hpp
+[3.532s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__traits.hpp
+[3.532s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/position_task.hpp
+[3.533s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/position_task_array.hpp
+[3.546s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__builder.hpp
+[3.547s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__struct.hpp
+[3.548s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__traits.hpp
+[3.549s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__builder.hpp
+[3.550s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__struct.hpp
+[3.563s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__traits.hpp
+[3.564s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/position_task_service.hpp
+[3.565s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/task_completion_service.hpp
+[3.582s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__rosidl_typesupport_introspection_cpp.hpp
+[3.583s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__rosidl_typesupport_introspection_cpp.hpp
+[3.583s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__rosidl_typesupport_introspection_cpp.hpp
+[3.584s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__rosidl_typesupport_introspection_cpp.hpp
+[3.584s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__rosidl_typesupport_introspection_cpp.hpp
+[3.598s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/pythonpath.sh
+[3.599s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/pythonpath.dsv
+[3.607s] -- Symlinking: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/__init__.py
+[3.627s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/action/__init__.py
+[3.628s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/action/_position_action.py
+[3.629s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/msg/__init__.py
+[3.630s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/msg/_position_task.py
+[3.630s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/msg/_position_task_array.py
+[3.632s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/srv/__init__.py
+[3.632s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/srv/_position_task_service.py
+[3.633s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/srv/_task_completion_service.py
+[3.635s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/choirbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.636s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/choirbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.638s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/choirbot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.640s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__python.so
+[3.641s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/action/PositionAction.idl
+[3.642s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/msg/PositionTask.idl
+[3.643s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/msg/PositionTaskArray.idl
+[3.657s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/PositionTaskService.idl
+[3.658s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/TaskCompletionService.idl
+[3.662s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/action/PositionAction.action
+[3.663s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/msg/PositionTask.msg
+[3.664s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/msg/PositionTaskArray.msg
+[3.682s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/PositionTaskService.srv
+[3.684s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/PositionTaskService_Request.msg
+[3.685s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/PositionTaskService_Response.msg
+[3.685s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/TaskCompletionService.srv
+[3.686s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/TaskCompletionService_Request.msg
+[3.699s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/TaskCompletionService_Response.msg
+[3.701s] -- Symlinking: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/__init__.py
+[3.721s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/ament_index/resource_index/package_run_dependencies/choirbot_interfaces
+[3.722s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/ament_index/resource_index/parent_prefix_path/choirbot_interfaces
+[3.723s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/ament_prefix_path.sh
+[3.724s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/ament_prefix_path.dsv
+[3.728s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/path.sh
+[3.729s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/path.dsv
+[3.729s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/local_setup.bash
+[3.730s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/local_setup.sh
+[3.731s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/local_setup.zsh
+[3.732s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/local_setup.dsv
+[3.732s] -- Symlinking: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.dsv
+[3.751s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/ament_index/resource_index/packages/choirbot_interfaces
+[3.751s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.752s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.766s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.767s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.769s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.770s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.771s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.791s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfacesConfig.cmake
+[3.792s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfacesConfig-version.cmake
+[3.795s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.xml
+[3.815s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_generator_c.so
+[3.848s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_typesupport_introspection_c.so
+[3.850s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_typesupport_c.so
+[3.876s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.879s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_typesupport_cpp.so
+[4.035s] Listing '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces'...
+[4.035s] Listing '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/action'...
+[4.035s] Listing '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/msg'...
+[4.036s] Listing '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/srv'...
+[4.055s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_generator_cExport.cmake
+[4.055s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.055s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.056s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.057s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_cExport.cmake
+[4.057s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.058s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_generator_cppExport.cmake
+[4.059s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.059s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.060s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_cppExport.cmake
+[4.060s] -- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.076s] Invoked command in '/home/yoko/turtlebot3_ws/build/choirbot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/choirbot_interfaces

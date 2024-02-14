@@ -1,0 +1,1 @@
+/home/yoko/turtlebot3_ws/src/build/choirbot_interfaces/ament_cmake_core/choirbot_interfacesConfig.cmake

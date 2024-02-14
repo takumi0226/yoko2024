@@ -1,0 +1,1 @@
+/home/yoko/turtlebot3_ws/build/choirbot_interfaces/rosidl_generator_c/choirbot_interfaces/srv/detail/task_completion_service__struct.h

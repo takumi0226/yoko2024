@@ -1,0 +1,5 @@
+[0.057s] Invoking command in '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.538s] [ 25%] Built target turtlebot3_drive
+[0.538s] [ 50%] Built target obstacles
+[0.538s] [ 75%] Built target obstacle2
+[0.538s] [100%] Built target obstacle1

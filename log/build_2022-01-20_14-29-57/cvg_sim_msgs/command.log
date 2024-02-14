@@ -1,0 +1,2 @@
+Invoking command in '/home/yoko/turtlebot3_ws/build/cvg_sim_msgs': /usr/bin/cmake /home/yoko/turtlebot3_ws/src/tum_simulator/cvg_sim_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/yoko/turtlebot3_ws/install/cvg_sim_msgs
+Invoked command in '/home/yoko/turtlebot3_ws/build/cvg_sim_msgs' returned '1': /usr/bin/cmake /home/yoko/turtlebot3_ws/src/tum_simulator/cvg_sim_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/yoko/turtlebot3_ws/install/cvg_sim_msgs

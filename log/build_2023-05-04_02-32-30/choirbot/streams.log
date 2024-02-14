@@ -1,0 +1,16 @@
+[1.128s] Invoking command in '/home/yoko/turtlebot3_ws/build/choirbot': CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces:/home/yoko/turtlebot3_ws/install/turtlebot3_simulations:/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node PYTHONPATH=/home/yoko/turtlebot3_ws/build/choirbot/prefix_override:/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/robot_spawner_pkg/src:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/robot_controller_utils/src:/home/yoko/turtlebot3_ws/install/robot_controller_utils/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot_examples/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/choirbot:/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/yoko/turtlebot3_ws/build/choirbot/build --no-deps install_data
+[1.546s] running develop
+[1.786s] running egg_info
+[1.786s] writing choirbot.egg-info/PKG-INFO
+[1.786s] writing dependency_links to choirbot.egg-info/dependency_links.txt
+[1.787s] writing entry points to choirbot.egg-info/entry_points.txt
+[1.787s] writing requirements to choirbot.egg-info/requires.txt
+[1.787s] writing top-level names to choirbot.egg-info/top_level.txt
+[1.839s] reading manifest file 'choirbot.egg-info/SOURCES.txt'
+[1.840s] writing manifest file 'choirbot.egg-info/SOURCES.txt'
+[1.895s] running build_ext
+[1.895s] Creating /home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages/choirbot.egg-link (link to .)
+[1.896s] 
+[1.896s] Installed /home/yoko/turtlebot3_ws/build/choirbot
+[1.897s] running install_data
+[1.939s] Invoked command in '/home/yoko/turtlebot3_ws/build/choirbot' returned '0': CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces:/home/yoko/turtlebot3_ws/install/turtlebot3_simulations:/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node PYTHONPATH=/home/yoko/turtlebot3_ws/build/choirbot/prefix_override:/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/robot_spawner_pkg/src:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/robot_controller_utils/src:/home/yoko/turtlebot3_ws/install/robot_controller_utils/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot_examples/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/choirbot:/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/yoko/turtlebot3_ws/build/choirbot/build --no-deps install_data

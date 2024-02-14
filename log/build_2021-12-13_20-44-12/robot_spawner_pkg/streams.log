@@ -1,0 +1,17 @@
+[0.507s] Invoking command in '/home/yoko/turtlebot3_ws/build/robot_spawner_pkg': PYTHONPATH=/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/robot_spawner_pkg --editable --build-directory /home/yoko/turtlebot3_ws/build/robot_spawner_pkg/build --no-deps
+[0.945s] running develop
+[1.178s] running egg_info
+[1.178s] writing src/robot_spawner_pkg.egg-info/PKG-INFO
+[1.178s] writing dependency_links to src/robot_spawner_pkg.egg-info/dependency_links.txt
+[1.178s] writing entry points to src/robot_spawner_pkg.egg-info/entry_points.txt
+[1.178s] writing requirements to src/robot_spawner_pkg.egg-info/requires.txt
+[1.179s] writing top-level names to src/robot_spawner_pkg.egg-info/top_level.txt
+[1.231s] package init file 'src/robot_spawner_pkg/__init__.py' not found (or not a regular file)
+[1.232s] reading manifest file 'src/robot_spawner_pkg.egg-info/SOURCES.txt'
+[1.232s] writing manifest file 'src/robot_spawner_pkg.egg-info/SOURCES.txt'
+[1.289s] running build_ext
+[1.289s] Creating /home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages/robot-spawner-pkg.egg-link (link to src)
+[1.290s] Installing spawn_turtlebot script to /home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/robot_spawner_pkg
+[1.291s] 
+[1.291s] Installed /home/yoko/turtlebot3_ws/build/robot_spawner_pkg/src
+[1.439s] Invoked command in '/home/yoko/turtlebot3_ws/build/robot_spawner_pkg' returned '0': PYTHONPATH=/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/robot_spawner_pkg --editable --build-directory /home/yoko/turtlebot3_ws/build/robot_spawner_pkg/build --no-deps

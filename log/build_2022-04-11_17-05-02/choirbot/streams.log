@@ -1,0 +1,16 @@
+[1.164s] Invoking command in '/home/yoko/turtlebot3_ws/build/choirbot': AMENT_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces LD_LIBRARY_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib PYTHONPATH=/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/choirbot --editable --build-directory /home/yoko/turtlebot3_ws/build/choirbot/build --no-deps install_data --install-dir /home/yoko/turtlebot3_ws/install/choirbot
+[2.132s] running develop
+[2.458s] running egg_info
+[2.459s] writing choirbot.egg-info/PKG-INFO
+[2.459s] writing dependency_links to choirbot.egg-info/dependency_links.txt
+[2.459s] writing entry points to choirbot.egg-info/entry_points.txt
+[2.459s] writing requirements to choirbot.egg-info/requires.txt
+[2.459s] writing top-level names to choirbot.egg-info/top_level.txt
+[3.449s] reading manifest file 'choirbot.egg-info/SOURCES.txt'
+[3.468s] writing manifest file 'choirbot.egg-info/SOURCES.txt'
+[4.296s] running build_ext
+[4.367s] Creating /home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages/choirbot.egg-link (link to .)
+[4.368s] 
+[4.369s] Installed /home/yoko/turtlebot3_ws/build/choirbot
+[4.369s] running install_data
+[4.489s] Invoked command in '/home/yoko/turtlebot3_ws/build/choirbot' returned '0': AMENT_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces LD_LIBRARY_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib PYTHONPATH=/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/choirbot --editable --build-directory /home/yoko/turtlebot3_ws/build/choirbot/build --no-deps install_data --install-dir /home/yoko/turtlebot3_ws/install/choirbot

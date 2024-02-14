@@ -1,0 +1,859 @@
+[0.000000] (-) TimerEvent: {}
+[0.000339] (choirbot_interfaces) JobQueued: {'identifier': 'choirbot_interfaces', 'dependencies': OrderedDict()}
+[0.000456] (turtlebot3_fake_node) JobQueued: {'identifier': 'turtlebot3_fake_node', 'dependencies': OrderedDict()}
+[0.000560] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000679] (choirbot) JobQueued: {'identifier': 'choirbot', 'dependencies': OrderedDict([('choirbot_interfaces', '/home/yoko/turtlebot3_ws/install/choirbot_interfaces')])}
+[0.000825] (turtlebot3_simulations) JobQueued: {'identifier': 'turtlebot3_simulations', 'dependencies': OrderedDict([('turtlebot3_fake_node', '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node'), ('turtlebot3_gazebo', '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo')])}
+[0.000957] (choirbot_examples) JobQueued: {'identifier': 'choirbot_examples', 'dependencies': OrderedDict([('choirbot_interfaces', '/home/yoko/turtlebot3_ws/install/choirbot_interfaces'), ('choirbot', '/home/yoko/turtlebot3_ws/install/choirbot')])}
+[0.001065] (choirbot_interfaces) JobStarted: {'identifier': 'choirbot_interfaces'}
+[0.098659] (-) TimerEvent: {}
+[0.199136] (-) TimerEvent: {}
+[0.299599] (-) TimerEvent: {}
+[0.400067] (-) TimerEvent: {}
+[0.413840] (turtlebot3_fake_node) JobStarted: {'identifier': 'turtlebot3_fake_node'}
+[0.454964] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.492132] (choirbot_interfaces) JobProgress: {'identifier': 'choirbot_interfaces', 'progress': 'cmake'}
+[0.500355] (-) TimerEvent: {}
+[0.600800] (-) TimerEvent: {}
+[0.603877] (choirbot_interfaces) JobProgress: {'identifier': 'choirbot_interfaces', 'progress': 'build'}
+[0.605556] (choirbot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yoko/turtlebot3_ws/build/choirbot_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/yoko/turtlebot3_ws/build/choirbot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yoko'), ('SSH_AGENT_PID', '72372'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('HOME', '/home/yoko'), ('OLDPWD', '/home/yoko'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '72210'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'yoko'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:2310254'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yoko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/yoko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yoko:@/tmp/.ICE-unix/72409,unix/yoko:/tmp/.ICE-unix/72409'), ('INVOCATION_ID', 'b6fed0660d77416e935fc9bd06f0b058'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4bb41e8e_b674_40c7_8afe_0b947996d8a0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yoko/turtlebot3_ws/build/choirbot_interfaces'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.701094] (-) TimerEvent: {}
+[0.708132] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'cmake'}
+[0.774453] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'build'}
+[0.775964] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yoko/turtlebot3_ws/build/turtlebot3_fake_node', '--', '-j8', '-l8'], 'cwd': '/home/yoko/turtlebot3_ws/build/turtlebot3_fake_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yoko'), ('SSH_AGENT_PID', '72372'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('HOME', '/home/yoko'), ('OLDPWD', '/home/yoko'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '72210'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'yoko'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:2310254'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yoko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/yoko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yoko:@/tmp/.ICE-unix/72409,unix/yoko:/tmp/.ICE-unix/72409'), ('INVOCATION_ID', 'b6fed0660d77416e935fc9bd06f0b058'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4bb41e8e_b674_40c7_8afe_0b947996d8a0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yoko/turtlebot3_ws/build/turtlebot3_fake_node'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.783975] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.801261] (-) TimerEvent: {}
+[0.872018] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[0.875526] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo', '--', '-j8', '-l8'], 'cwd': '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yoko'), ('SSH_AGENT_PID', '72372'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('HOME', '/home/yoko'), ('OLDPWD', '/home/yoko'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '72210'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'yoko'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:2310254'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yoko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/yoko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yoko:@/tmp/.ICE-unix/72409,unix/yoko:/tmp/.ICE-unix/72409'), ('INVOCATION_ID', 'b6fed0660d77416e935fc9bd06f0b058'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4bb41e8e_b674_40c7_8afe_0b947996d8a0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.901450] (-) TimerEvent: {}
+[1.001828] (-) TimerEvent: {}
+[1.102260] (-) TimerEvent: {}
+[1.202865] (-) TimerEvent: {}
+[1.303262] (-) TimerEvent: {}
+[1.403722] (-) TimerEvent: {}
+[1.504254] (-) TimerEvent: {}
+[1.604857] (-) TimerEvent: {}
+[1.705540] (-) TimerEvent: {}
+[1.805955] (-) TimerEvent: {}
+[1.906595] (-) TimerEvent: {}
+[2.007116] (-) TimerEvent: {}
+[2.107759] (-) TimerEvent: {}
+[2.208268] (-) TimerEvent: {}
+[2.308730] (-) TimerEvent: {}
+[2.409493] (-) TimerEvent: {}
+[2.510137] (-) TimerEvent: {}
+[2.610706] (-) TimerEvent: {}
+[2.711358] (-) TimerEvent: {}
+[2.812015] (-) TimerEvent: {}
+[2.912591] (-) TimerEvent: {}
+[3.013170] (-) TimerEvent: {}
+[3.113922] (-) TimerEvent: {}
+[3.214486] (-) TimerEvent: {}
+[3.314885] (-) TimerEvent: {}
+[3.415228] (-) TimerEvent: {}
+[3.515637] (-) TimerEvent: {}
+[3.616030] (-) TimerEvent: {}
+[3.716450] (-) TimerEvent: {}
+[3.816844] (-) TimerEvent: {}
+[3.917309] (-) TimerEvent: {}
+[3.937173] (choirbot_interfaces) StdoutLine: {'line': b'[  1%] Built target choirbot_interfaces__cpp\n'}
+[4.017518] (-) TimerEvent: {}
+[4.117977] (-) TimerEvent: {}
+[4.218531] (-) TimerEvent: {}
+[4.318913] (-) TimerEvent: {}
+[4.419287] (-) TimerEvent: {}
+[4.516056] (choirbot_interfaces) StdoutLine: {'line': b'[ 23%] Built target choirbot_interfaces__rosidl_typesupport_cpp\n'}
+[4.516304] (choirbot_interfaces) StdoutLine: {'line': b'[ 23%] Built target choirbot_interfaces__rosidl_generator_c\n'}
+[4.518860] (choirbot_interfaces) StdoutLine: {'line': b'[ 34%] Built target choirbot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.519358] (-) TimerEvent: {}
+[4.619718] (-) TimerEvent: {}
+[4.720334] (-) TimerEvent: {}
+[4.820889] (-) TimerEvent: {}
+[4.921232] (-) TimerEvent: {}
+[5.003889] (choirbot_interfaces) StdoutLine: {'line': b'[ 46%] Built target choirbot_interfaces__rosidl_typesupport_c\n'}
+[5.005320] (choirbot_interfaces) StdoutLine: {'line': b'[ 57%] Built target choirbot_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.021382] (-) TimerEvent: {}
+[5.121750] (-) TimerEvent: {}
+[5.222374] (-) TimerEvent: {}
+[5.322991] (-) TimerEvent: {}
+[5.423567] (-) TimerEvent: {}
+[5.518582] (choirbot_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libchoirbot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.523687] (-) TimerEvent: {}
+[5.550953] (turtlebot3_fake_node) StdoutLine: {'line': b'[100%] Built target turtlebot3_fake_node\n'}
+[5.551350] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] Built target turtlebot3_drive\n'}
+[5.568901] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[5.610094] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'install'}
+[5.623989] (-) TimerEvent: {}
+[5.631835] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yoko/turtlebot3_ws/build/turtlebot3_fake_node'], 'cwd': '/home/yoko/turtlebot3_ws/build/turtlebot3_fake_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yoko'), ('SSH_AGENT_PID', '72372'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('HOME', '/home/yoko'), ('OLDPWD', '/home/yoko'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '72210'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'yoko'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:2310254'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yoko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/yoko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yoko:@/tmp/.ICE-unix/72409,unix/yoko:/tmp/.ICE-unix/72409'), ('INVOCATION_ID', 'b6fed0660d77416e935fc9bd06f0b058'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4bb41e8e_b674_40c7_8afe_0b947996d8a0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yoko/turtlebot3_ws/build/turtlebot3_fake_node'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[5.724187] (-) TimerEvent: {}
+[5.787918] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.824313] (-) TimerEvent: {}
+[5.912814] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.924443] (-) TimerEvent: {}
+[6.024928] (-) TimerEvent: {}
+[6.109325] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node\n'}
+[6.125080] (-) TimerEvent: {}
+[6.225605] (-) TimerEvent: {}
+[6.267629] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py\n'}
+[6.268084] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py\n'}
+[6.325844] (-) TimerEvent: {}
+[6.350743] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml\n'}
+[6.351364] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml\n'}
+[6.351887] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml\n'}
+[6.353364] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz\n'}
+[6.355583] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp\n'}
+[6.356978] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node\n'}
+[6.382637] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node\n'}
+[6.384020] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh\n'}
+[6.384721] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv\n'}
+[6.399151] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh\n'}
+[6.399961] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv\n'}
+[6.401356] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash\n'}
+[6.402138] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh\n'}
+[6.415975] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh\n'}
+[6.426071] (-) TimerEvent: {}
+[6.484990] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv\n'}
+[6.485390] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Symlinking: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv\n'}
+[6.526344] (-) TimerEvent: {}
+[6.634517] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node\n'}
+[6.634858] (-) TimerEvent: {}
+[6.636241] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.636999] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.637776] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake\n'}
+[6.650757] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[6.665919] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake\n'}
+[6.694002] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml\n'}
+[6.697905] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[6.723954] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[6.724228] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[6.735053] (-) TimerEvent: {}
+[6.835555] (-) TimerEvent: {}
+[6.936132] (-) TimerEvent: {}
+[7.036644] (-) TimerEvent: {}
+[7.137228] (-) TimerEvent: {}
+[7.237686] (-) TimerEvent: {}
+[7.338114] (-) TimerEvent: {}
+[7.438553] (-) TimerEvent: {}
+[7.538963] (-) TimerEvent: {}
+[7.639386] (-) TimerEvent: {}
+[7.739795] (-) TimerEvent: {}
+[7.840185] (-) TimerEvent: {}
+[7.940641] (-) TimerEvent: {}
+[8.041218] (-) TimerEvent: {}
+[8.141761] (-) TimerEvent: {}
+[8.242782] (-) TimerEvent: {}
+[8.259659] (turtlebot3_fake_node) JobEnded: {'identifier': 'turtlebot3_fake_node', 'rc': 0}
+[8.342887] (-) TimerEvent: {}
+[8.443453] (-) TimerEvent: {}
+[8.544033] (-) TimerEvent: {}
+[8.644594] (-) TimerEvent: {}
+[8.745137] (-) TimerEvent: {}
+[8.810472] (choirbot_interfaces) StdoutLine: {'line': b'[ 68%] Built target choirbot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.845379] (-) TimerEvent: {}
+[8.945929] (-) TimerEvent: {}
+[9.046462] (-) TimerEvent: {}
+[9.146905] (-) TimerEvent: {}
+[9.254103] (-) TimerEvent: {}
+[9.354735] (-) TimerEvent: {}
+[9.455290] (-) TimerEvent: {}
+[9.555868] (-) TimerEvent: {}
+[9.656437] (-) TimerEvent: {}
+[9.756966] (-) TimerEvent: {}
+[9.857526] (-) TimerEvent: {}
+[9.958096] (-) TimerEvent: {}
+[10.058630] (-) TimerEvent: {}
+[10.159016] (-) TimerEvent: {}
+[10.259339] (-) TimerEvent: {}
+[10.359729] (-) TimerEvent: {}
+[10.420070] (choirbot_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libchoirbot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.460196] (-) TimerEvent: {}
+[10.560584] (-) TimerEvent: {}
+[10.661047] (-) TimerEvent: {}
+[10.761597] (-) TimerEvent: {}
+[10.862002] (-) TimerEvent: {}
+[10.923867] (choirbot_interfaces) StdoutLine: {'line': b'[ 79%] Built target choirbot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.962270] (-) TimerEvent: {}
+[11.062788] (-) TimerEvent: {}
+[11.100555] (choirbot_interfaces) StdoutLine: {'line': b'[ 79%] Built target choirbot_interfaces\n'}
+[11.162885] (-) TimerEvent: {}
+[11.263271] (-) TimerEvent: {}
+[11.333258] (choirbot_interfaces) StdoutLine: {'line': b'[ 80%] Built target choirbot_interfaces__py\n'}
+[11.363443] (-) TimerEvent: {}
+[11.464020] (-) TimerEvent: {}
+[11.564596] (-) TimerEvent: {}
+[11.644697] (choirbot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target choirbot_interfaces__python\x1b[0m\n'}
+[11.664779] (-) TimerEvent: {}
+[11.765184] (-) TimerEvent: {}
+[11.865604] (-) TimerEvent: {}
+[11.965995] (-) TimerEvent: {}
+[12.025965] (choirbot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/choirbot_interfaces__python.dir/rosidl_generator_py/choirbot_interfaces/msg/_position_task_array_s.c.o\x1b[0m\n'}
+[12.027272] (choirbot_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/choirbot_interfaces__python.dir/rosidl_generator_py/choirbot_interfaces/msg/_position_task_s.c.o\x1b[0m\n'}
+[12.027504] (choirbot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/choirbot_interfaces__python.dir/rosidl_generator_py/choirbot_interfaces/srv/_position_task_service_s.c.o\x1b[0m\n'}
+[12.028593] (choirbot_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/choirbot_interfaces__python.dir/rosidl_generator_py/choirbot_interfaces/action/_position_action_s.c.o\x1b[0m\n'}
+[12.029910] (choirbot_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/choirbot_interfaces__python.dir/rosidl_generator_py/choirbot_interfaces/srv/_task_completion_service_s.c.o\x1b[0m\n'}
+[12.066117] (-) TimerEvent: {}
+[12.166818] (-) TimerEvent: {}
+[12.267319] (-) TimerEvent: {}
+[12.367733] (-) TimerEvent: {}
+[12.468188] (-) TimerEvent: {}
+[12.568762] (-) TimerEvent: {}
+[12.669459] (-) TimerEvent: {}
+[12.769879] (-) TimerEvent: {}
+[12.870278] (-) TimerEvent: {}
+[12.970792] (-) TimerEvent: {}
+[13.071288] (-) TimerEvent: {}
+[13.171678] (-) TimerEvent: {}
+[13.272126] (-) TimerEvent: {}
+[13.372474] (-) TimerEvent: {}
+[13.472958] (-) TimerEvent: {}
+[13.573360] (-) TimerEvent: {}
+[13.673786] (-) TimerEvent: {}
+[13.774332] (-) TimerEvent: {}
+[13.874942] (-) TimerEvent: {}
+[13.936474] (choirbot_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/choirbot_interfaces/libchoirbot_interfaces__python.so\x1b[0m\n'}
+[13.975149] (-) TimerEvent: {}
+[14.075688] (-) TimerEvent: {}
+[14.176247] (-) TimerEvent: {}
+[14.276659] (-) TimerEvent: {}
+[14.351801] (choirbot_interfaces) StdoutLine: {'line': b'[ 90%] Built target choirbot_interfaces__python\n'}
+[14.376885] (-) TimerEvent: {}
+[14.477261] (-) TimerEvent: {}
+[14.577627] (-) TimerEvent: {}
+[14.678058] (-) TimerEvent: {}
+[14.686703] (choirbot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target choirbot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[14.686927] (choirbot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target choirbot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[14.687053] (choirbot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target choirbot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[14.753426] (choirbot_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/choirbot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/choirbot_interfaces/_choirbot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.778258] (-) TimerEvent: {}
+[14.878668] (-) TimerEvent: {}
+[14.927120] (choirbot_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/choirbot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/choirbot_interfaces/_choirbot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.978780] (-) TimerEvent: {}
+[15.079336] (-) TimerEvent: {}
+[15.179948] (-) TimerEvent: {}
+[15.280698] (-) TimerEvent: {}
+[15.381291] (-) TimerEvent: {}
+[15.481848] (-) TimerEvent: {}
+[15.505451] (choirbot_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/choirbot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/choirbot_interfaces/_choirbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.582098] (-) TimerEvent: {}
+[15.633056] (choirbot_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/choirbot_interfaces/choirbot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.633301] (choirbot_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/choirbot_interfaces/choirbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.682227] (-) TimerEvent: {}
+[15.725607] (choirbot_interfaces) StdoutLine: {'line': b'[ 98%] Built target choirbot_interfaces__rosidl_typesupport_c__pyext\n'}
+[15.727617] (choirbot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/choirbot_interfaces/choirbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.766305] (choirbot_interfaces) StdoutLine: {'line': b'[100%] Built target choirbot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[15.782463] (-) TimerEvent: {}
+[15.854417] (choirbot_interfaces) StdoutLine: {'line': b'[100%] Built target choirbot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.873846] (choirbot_interfaces) CommandEnded: {'returncode': 0}
+[15.882780] (-) TimerEvent: {}
+[15.983566] (-) TimerEvent: {}
+[15.997705] (choirbot_interfaces) JobProgress: {'identifier': 'choirbot_interfaces', 'progress': 'install'}
+[15.998663] (choirbot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yoko/turtlebot3_ws/build/choirbot_interfaces'], 'cwd': '/home/yoko/turtlebot3_ws/build/choirbot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yoko'), ('SSH_AGENT_PID', '72372'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('HOME', '/home/yoko'), ('OLDPWD', '/home/yoko'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '72210'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'yoko'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:2310254'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yoko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/yoko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yoko:@/tmp/.ICE-unix/72409,unix/yoko:/tmp/.ICE-unix/72409'), ('INVOCATION_ID', 'b6fed0660d77416e935fc9bd06f0b058'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4bb41e8e_b674_40c7_8afe_0b947996d8a0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yoko/turtlebot3_ws/build/choirbot_interfaces'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[16.026906] (choirbot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.068143] (choirbot_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.083766] (-) TimerEvent: {}
+[16.094994] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/ament_index/resource_index/rosidl_interfaces/choirbot_interfaces\n'}
+[16.103414] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__functions.h\n'}
+[16.103853] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__struct.h\n'}
+[16.104350] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__type_support.h\n'}
+[16.105027] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/position_action.h\n'}
+[16.105654] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__functions.h\n'}
+[16.106144] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__struct.h\n'}
+[16.106610] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__type_support.h\n'}
+[16.107210] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__functions.h\n'}
+[16.107803] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__struct.h\n'}
+[16.108370] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__type_support.h\n'}
+[16.109057] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/position_task.h\n'}
+[16.109610] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/position_task_array.h\n'}
+[16.110191] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.110960] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__functions.h\n'}
+[16.111494] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__struct.h\n'}
+[16.112129] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__type_support.h\n'}
+[16.112696] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__functions.h\n'}
+[16.113235] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__struct.h\n'}
+[16.113856] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__type_support.h\n'}
+[16.114629] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/position_task_service.h\n'}
+[16.115221] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/task_completion_service.h\n'}
+[16.116241] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/library_path.sh\n'}
+[16.117188] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/library_path.dsv\n'}
+[16.126796] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__rosidl_typesupport_fastrtps_c.h\n'}
+[16.128024] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__rosidl_typesupport_fastrtps_c.h\n'}
+[16.130953] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__rosidl_typesupport_fastrtps_c.h\n'}
+[16.131628] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.133702] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__rosidl_typesupport_fastrtps_c.h\n'}
+[16.135841] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__rosidl_typesupport_fastrtps_c.h\n'}
+[16.138331] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[16.140940] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.141569] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.162094] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.183892] (-) TimerEvent: {}
+[16.200769] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.219419] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.219940] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.221535] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.223633] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__rosidl_typesupport_introspection_c.h\n'}
+[16.233831] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] Built target obstacle1\n'}
+[16.242606] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] Built target obstacle2\n'}
+[16.259236] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__rosidl_typesupport_introspection_c.h\n'}
+[16.284061] (-) TimerEvent: {}
+[16.302849] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__rosidl_typesupport_introspection_c.h\n'}
+[16.303350] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.303952] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__rosidl_typesupport_introspection_c.h\n'}
+[16.304597] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__rosidl_typesupport_introspection_c.h\n'}
+[16.322983] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacles\n'}
+[16.338779] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[16.366324] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__builder.hpp\n'}
+[16.366976] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__struct.hpp\n'}
+[16.367387] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__traits.hpp\n'}
+[16.367794] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/position_action.hpp\n'}
+[16.368386] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__builder.hpp\n'}
+[16.368965] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__struct.hpp\n'}
+[16.369447] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__traits.hpp\n'}
+[16.369905] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__builder.hpp\n'}
+[16.370353] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__struct.hpp\n'}
+[16.370871] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__traits.hpp\n'}
+[16.371433] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/position_task.hpp\n'}
+[16.371928] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/position_task_array.hpp\n'}
+[16.372420] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__builder.hpp\n'}
+[16.372861] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__struct.hpp\n'}
+[16.373359] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__traits.hpp\n'}
+[16.373808] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__builder.hpp\n'}
+[16.374301] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__struct.hpp\n'}
+[16.374769] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__traits.hpp\n'}
+[16.375255] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/position_task_service.hpp\n'}
+[16.375749] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/task_completion_service.hpp\n'}
+[16.377638] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/action/detail/position_action__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.378152] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.378831] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/msg/detail/position_task_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.379408] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/position_task_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.379807] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/include/choirbot_interfaces/srv/detail/task_completion_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.380477] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/pythonpath.sh\n'}
+[16.381245] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/pythonpath.dsv\n'}
+[16.383523] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[16.385062] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo'], 'cwd': '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yoko'), ('SSH_AGENT_PID', '72372'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('HOME', '/home/yoko'), ('OLDPWD', '/home/yoko'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '72210'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'yoko'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:2310254'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yoko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/yoko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yoko:@/tmp/.ICE-unix/72409,unix/yoko:/tmp/.ICE-unix/72409'), ('INVOCATION_ID', 'b6fed0660d77416e935fc9bd06f0b058'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4bb41e8e_b674_40c7_8afe_0b947996d8a0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[16.389319] (-) TimerEvent: {}
+[16.398695] (choirbot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/__init__.py\n'}
+[16.414531] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.479954] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/action/__init__.py\n'}
+[16.480308] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.480581] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/action/_position_action.py\n'}
+[16.489477] (-) TimerEvent: {}
+[16.538903] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[16.539142] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/msg/__init__.py\n'}
+[16.539453] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/msg/_position_task.py\n'}
+[16.540427] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/msg/_position_task_array.py\n'}
+[16.541643] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/srv/__init__.py\n'}
+[16.542198] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/srv/_position_task_service.py\n'}
+[16.556310] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/srv/_task_completion_service.py\n'}
+[16.589670] (-) TimerEvent: {}
+[16.605883] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[16.606110] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/choirbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.606595] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[16.607694] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace.launch.py\n'}
+[16.607997] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/choirbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.633773] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[16.656322] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[16.656573] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/choirbot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.656802] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[16.657615] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[16.657981] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__python.so\n'}
+[16.683759] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[16.689875] (-) TimerEvent: {}
+[16.706540] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/action/PositionAction.idl\n'}
+[16.706884] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[16.707548] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/msg/PositionTask.idl\n'}
+[16.708542] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/msg/PositionTaskArray.idl\n'}
+[16.709450] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/PositionTaskService.idl\n'}
+[16.710254] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/TaskCompletionService.idl\n'}
+[16.722991] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/action/PositionAction.action\n'}
+[16.766820] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/msg/PositionTask.msg\n'}
+[16.790020] (-) TimerEvent: {}
+[16.790370] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/msg/PositionTaskArray.msg\n'}
+[16.791091] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/PositionTaskService.srv\n'}
+[16.792431] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/PositionTaskService_Request.msg\n'}
+[16.816854] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/PositionTaskService_Response.msg\n'}
+[16.840631] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/TaskCompletionService.srv\n'}
+[16.841339] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/TaskCompletionService_Request.msg\n'}
+[16.842079] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/srv/TaskCompletionService_Response.msg\n'}
+[16.842959] (choirbot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/__init__.py\n'}
+[16.890197] (-) TimerEvent: {}
+[16.892560] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/ament_index/resource_index/package_run_dependencies/choirbot_interfaces\n'}
+[16.893704] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/ament_index/resource_index/parent_prefix_path/choirbot_interfaces\n'}
+[16.894602] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/ament_prefix_path.sh\n'}
+[16.934149] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/ament_prefix_path.dsv\n'}
+[16.967890] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/path.sh\n'}
+[16.968622] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/environment/path.dsv\n'}
+[16.969679] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/local_setup.bash\n'}
+[16.970778] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/local_setup.sh\n'}
+[16.971679] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/local_setup.zsh\n'}
+[16.972430] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/local_setup.dsv\n'}
+[16.972742] (choirbot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.dsv\n'}
+[16.987032] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/ament_index/resource_index/packages/choirbot_interfaces\n'}
+[16.988350] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[16.990141] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.990427] (-) TimerEvent: {}
+[16.991367] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.992530] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.993986] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.994935] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.016655] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/choirbot_world/meshes/hexagon.dae\n'}
+[17.017188] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/choirbot_world/meshes/wall.dae\n'}
+[17.023800] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.024792] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfacesConfig.cmake\n'}
+[17.025342] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfacesConfig-version.cmake\n'}
+[17.026107] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.xml\n'}
+[17.030407] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/choirbot_world/model-1_4.sdf\n'}
+[17.047201] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/choirbot_world/model.config\n'}
+[17.083379] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_generator_c.so\n'}
+[17.083790] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/choirbot_world/model.sdf\n'}
+[17.090584] (-) TimerEvent: {}
+[17.102439] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/model.config\n'}
+[17.102997] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[17.103266] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/model.sdf\n'}
+[17.104385] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/programs/SimpleWaves.frag\n'}
+[17.104547] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_typesupport_c.so\n'}
+[17.104897] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/programs/SimpleWaves.vert\n'}
+[17.158150] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[17.158440] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/scripts/fiducials.material\n'}
+[17.177509] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/scripts/sand.material\n'}
+[17.177933] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/libchoirbot_interfaces__rosidl_typesupport_cpp.so\n'}
+[17.178202] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/scripts/water.material\n'}
+[17.178548] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/scripts/waves.material\n'}
+[17.179877] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/License and source for textures.txt\n'}
+[17.190685] (-) TimerEvent: {}
+[17.207998] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds.jpg\n'}
+[17.227837] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds_bk.jpg\n'}
+[17.228594] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds_dn.jpg\n'}
+[17.229402] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds_fr.jpg\n'}
+[17.229966] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds_lf.jpg\n'}
+[17.230716] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds_rt.jpg\n'}
+[17.244566] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds_up.jpg\n'}
+[17.245351] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/fiducials/License and source for textures.txt\n'}
+[17.245998] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/fiducials/aruco_1.png\n'}
+[17.246597] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/fiducials/aruco_2.png\n'}
+[17.247304] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/fiducials/aruco_3.png\n'}
+[17.247896] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/fiducials/aruco_4.png\n'}
+[17.248465] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/fiducials/aruco_5.png\n'}
+[17.249002] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/soil_sand_0045_01.jpg\n'}
+[17.249745] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/water_water_0046_01.jpg\n'}
+[17.250212] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/water_water_0051_01.jpg\n'}
+[17.250781] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/water_water_0076_03_s.jpg\n'}
+[17.251309] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/water_water_0093_01.jpg\n'}
+[17.251849] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/wave_normals.dds\n'}
+[17.252578] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts/course.material\n'}
+[17.253251] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures/course.png\n'}
+[17.253897] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.config\n'}
+[17.254359] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.sdf\n'}
+[17.254989] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.config\n'}
+[17.255448] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.sdf\n'}
+[17.256085] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.config\n'}
+[17.256497] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.sdf\n'}
+[17.257160] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/model.config\n'}
+[17.257795] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts/traffic_bar.material\n'}
+[17.258455] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures/traffic_bar.png\n'}
+[17.259206] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.config\n'}
+[17.259713] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.sdf\n'}
+[17.260453] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts/traffic_bar.material\n'}
+[17.261042] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures/traffic_bar.png\n'}
+[17.261684] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.config\n'}
+[17.262158] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.sdf\n'}
+[17.262808] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.config\n'}
+[17.263407] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.sdf\n'}
+[17.264047] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.config\n'}
+[17.264468] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.sdf\n'}
+[17.265127] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.config\n'}
+[17.265575] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.sdf\n'}
+[17.266223] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts/traffic_parking.material\n'}
+[17.266884] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures/traffic_parking.png\n'}
+[17.267619] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.config\n'}
+[17.268186] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.sdf\n'}
+[17.268791] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts/traffic_stop.material\n'}
+[17.269393] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures/traffic_stop.png\n'}
+[17.270157] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.config\n'}
+[17.270587] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.sdf\n'}
+[17.271294] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts/tunnel.material\n'}
+[17.271969] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures/tunnel.png\n'}
+[17.282174] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.config\n'}
+[17.283033] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.sdf\n'}
+[17.284972] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.config\n'}
+[17.286021] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.sdf\n'}
+[17.287183] (choirbot_interfaces) StdoutLine: {'line': b"Listing '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces'...\n"}
+[17.287489] (choirbot_interfaces) StdoutLine: {'line': b"Listing '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/action'...\n"}
+[17.287650] (choirbot_interfaces) StdoutLine: {'line': b"Listing '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/msg'...\n"}
+[17.287807] (choirbot_interfaces) StdoutLine: {'line': b"Listing '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages/choirbot_interfaces/srv'...\n"}
+[17.288080] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.config\n'}
+[17.288316] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.sdf\n'}
+[17.288633] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae\n'}
+[17.289064] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae\n'}
+[17.289530] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae\n'}
+[17.290175] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[17.290786] (-) TimerEvent: {}
+[17.291638] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[17.332956] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[17.353919] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[17.354388] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[17.355136] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[17.361522] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_generator_cExport.cmake\n'}
+[17.361806] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.374474] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[17.390911] (-) TimerEvent: {}
+[17.428437] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.428820] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[17.429018] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.429286] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[17.429575] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[17.429731] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.430184] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[17.430805] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[17.457923] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[17.478820] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.479228] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.479384] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[17.479663] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[17.479870] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[17.480062] (choirbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/cmake/choirbot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.481013] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[17.481567] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[17.482706] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[17.483723] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[17.485773] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[17.486877] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[17.488186] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[17.489137] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[17.490306] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae\n'}
+[17.494542] (-) TimerEvent: {}
+[17.494800] (choirbot_interfaces) CommandEnded: {'returncode': 0}
+[17.495950] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae\n'}
+[17.496384] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/tire.dae\n'}
+[17.496796] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae\n'}
+[17.497098] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[17.497390] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[17.497808] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[17.498243] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae\n'}
+[17.498489] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/tire.dae\n'}
+[17.498737] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae\n'}
+[17.499033] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[17.499382] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[17.499727] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[17.500232] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[17.500844] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[17.501520] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[17.502339] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[17.507606] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[17.518347] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[17.594815] (-) TimerEvent: {}
+[17.695369] (-) TimerEvent: {}
+[17.760913] (choirbot_interfaces) JobEnded: {'identifier': 'choirbot_interfaces', 'rc': 0}
+[17.762225] (choirbot) JobStarted: {'identifier': 'choirbot'}
+[17.768858] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model\n'}
+[17.795521] (-) TimerEvent: {}
+[17.814042] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger_base.model\n'}
+[17.886415] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/publish_world_models.py\n'}
+[17.895692] (-) TimerEvent: {}
+[17.915458] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model\n'}
+[17.916057] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model\n'}
+[17.916639] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/burger.model\n'}
+[17.917479] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle.model\n'}
+[17.951769] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle_pi.model\n'}
+[17.995907] (-) TimerEvent: {}
+[18.007405] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/burger.model\n'}
+[18.008061] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle.model\n'}
+[18.008733] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle_pi.model\n'}
+[18.011730] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/burger.model\n'}
+[18.034667] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle.model\n'}
+[18.058948] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle_pi.model\n'}
+[18.059743] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/burger.model\n'}
+[18.060347] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle.model\n'}
+[18.060981] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle_pi.model\n'}
+[18.061875] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/burger.model\n'}
+[18.062529] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle.model\n'}
+[18.063236] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle_pi.model\n'}
+[18.064265] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model\n'}
+[18.064929] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model\n'}
+[18.065460] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model\n'}
+[18.066381] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model\n'}
+[18.067049] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model\n'}
+[18.067665] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model\n'}
+[18.076746] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/CHANGELOG.rst\n'}
+[18.077563] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/CMakeLists.txt\n'}
+[18.078203] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/programs/SimpleWaves.frag\n'}
+[18.078864] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/programs/SimpleWaves.vert\n'}
+[18.079748] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/scripts/fiducials.material\n'}
+[18.080333] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/scripts/sand.material\n'}
+[18.080903] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/scripts/water.material\n'}
+[18.081613] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/scripts/waves.material\n'}
+[18.082297] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/License and source for textures.txt\n'}
+[18.083000] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds.jpg\n'}
+[18.083558] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds_bk.jpg\n'}
+[18.084178] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds_dn.jpg\n'}
+[18.084854] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds_fr.jpg\n'}
+[18.085219] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds_lf.jpg\n'}
+[18.085680] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds_rt.jpg\n'}
+[18.086143] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds_up.jpg\n'}
+[18.086727] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/fiducials/License and source for textures.txt\n'}
+[18.087208] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/fiducials/aruco_1.png\n'}
+[18.087685] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/fiducials/aruco_2.png\n'}
+[18.088160] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/fiducials/aruco_3.png\n'}
+[18.088632] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/fiducials/aruco_4.png\n'}
+[18.089099] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/fiducials/aruco_5.png\n'}
+[18.089562] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/soil_sand_0045_01.jpg\n'}
+[18.090027] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/water_water_0046_01.jpg\n'}
+[18.090479] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/water_water_0051_01.jpg\n'}
+[18.091000] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/water_water_0076_03_s.jpg\n'}
+[18.091478] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/water_water_0093_01.jpg\n'}
+[18.091945] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/wave_normals.dds\n'}
+[18.092486] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/models/sea_surface_1000m_x_1000m.dae\n'}
+[18.093058] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/auv_underwater_world.launch\n'}
+[18.093524] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/empty_underwater_test.launch\n'}
+[18.093976] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/empty_underwater_world.launch\n'}
+[18.094441] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/herkules_ship_wreck.launch\n'}
+[18.095058] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/herkules_ship_wreck_test.launch\n'}
+[18.095618] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/lake.launch\n'}
+[18.095979] (-) TimerEvent: {}
+[18.096374] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/mangalia.launch\n'}
+[18.096682] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/mangalia_manipulation.launch\n'}
+[18.097099] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/munkholmen.launch\n'}
+[18.097535] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/ocean_waves.launch\n'}
+[18.097981] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/rov_bop_panel.launch\n'}
+[18.098427] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/subsea_bop_panel.launch\n'}
+[18.099011] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/april_tag_36_11_00000/model.config\n'}
+[18.099464] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/april_tag_36_11_00000/model.sdf\n'}
+[18.099984] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/aurora_static/meshes/aurora.dae\n'}
+[18.100437] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/aurora_static/meshes/aurora_collision.stl\n'}
+[18.101047] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/aurora_static/model.config\n'}
+[18.101525] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/aurora_static/model.sdf\n'}
+[18.102113] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/bop_panel/meshes/Valve.dae\n'}
+[18.102606] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/bop_panel/meshes/VentilBlock.mtl\n'}
+[18.103074] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/bop_panel/meshes/VentilBlock.obj\n'}
+[18.103526] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/bop_panel/meshes/VentilBlock.stl\n'}
+[18.104060] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/bop_panel/model.config\n'}
+[18.104504] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/bop_panel/model.sdf\n'}
+[18.105156] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/herkules_seabed/meshes/herkules_seabed.dae\n'}
+[18.105630] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/herkules_seabed/model.config\n'}
+[18.106065] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/herkules_seabed/model.sdf\n'}
+[18.106730] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/herkules_ship_wreck/meshes/herkules.dae\n'}
+[18.107020] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/herkules_ship_wreck/model.config\n'}
+[18.107425] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/herkules_ship_wreck/model.sdf\n'}
+[18.107890] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/hot_stab/meshes/HotStab.dae\n'}
+[18.108342] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/hot_stab/model.config\n'}
+[18.108731] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/hot_stab/model.sdf\n'}
+[18.109178] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/lake/meshes/LakeBottom.dae\n'}
+[18.109575] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/lake/meshes/WaterSurface.dae\n'}
+[18.110023] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/lake/model.config\n'}
+[18.110410] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/lake/model.sdf\n'}
+[18.110886] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/meshes/170427_Seabed8_textured.blend\n'}
+[18.111308] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/meshes/170427_Seabed8_textured.dae\n'}
+[18.111892] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/meshes/License and source for textures.txt\n'}
+[18.112355] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/meshes/MangaliaTerrain.dae\n'}
+[18.112781] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/meshes/grass_grass_0101_02_tiled_s.jpg\n'}
+[18.113207] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/meshes/ground_stone_ground_0029_02_tiled_s.jpg\n'}
+[18.113701] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/model.config\n'}
+[18.114101] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/model.sdf\n'}
+[18.114529] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/munkholmen/meshes/munkholmen.dae\n'}
+[18.115016] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/munkholmen/model.config\n'}
+[18.115434] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/munkholmen/model.sdf\n'}
+[18.115883] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/munkholmen_seabed/meshes/seabed.dae\n'}
+[18.116334] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/munkholmen_seabed/model.config\n'}
+[18.116667] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/munkholmen_seabed/model.sdf\n'}
+[18.117299] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/ned_frame/model.config\n'}
+[18.117856] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/ned_frame/model.sdf\n'}
+[18.118617] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/ocean/model.config\n'}
+[18.119131] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/ocean/model.sdf\n'}
+[18.119848] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/ocean_box/model.config\n'}
+[18.120318] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/ocean_box/model.sdf\n'}
+[18.121074] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/meshes/BOP_Panel.dae\n'}
+[18.121635] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/meshes/License and source texture.txt\n'}
+[18.122311] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/meshes/SmallValve.dae\n'}
+[18.159563] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/meshes/Valve.dae\n'}
+[18.176212] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/meshes/metal_bare_0045_01.jpg\n'}
+[18.177130] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/model.config\n'}
+[18.177823] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/model.sdf\n'}
+[18.178936] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sand_heightmap/meshes/License and source for textures.txt\n'}
+[18.179615] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sand_heightmap/meshes/heightmap.dae\n'}
+[18.180286] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sand_heightmap/meshes/soil_sand_0045_01.jpg\n'}
+[18.196105] (-) TimerEvent: {}
+[18.218219] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sand_heightmap/model.config\n'}
+[18.218855] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sand_heightmap/model.sdf\n'}
+[18.219794] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sea_bottom/model.config\n'}
+[18.242506] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sea_bottom/model.sdf\n'}
+[18.260303] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sea_surface/model.config\n'}
+[18.260975] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sea_surface/model.sdf\n'}
+[18.261918] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/t_bar_fork_tool/meshes/TBarForkTool.dae\n'}
+[18.262686] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/t_bar_fork_tool/model.config\n'}
+[18.263294] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/t_bar_fork_tool/model.sdf\n'}
+[18.263955] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/torque_tool/meshes/TorqueTool.dae\n'}
+[18.264625] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/torque_tool/model.config\n'}
+[18.265100] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/torque_tool/model.sdf\n'}
+[18.265747] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/tree/meshes/Tree.dae\n'}
+[18.266473] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/tree/model.config\n'}
+[18.267096] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/tree/model.sdf\n'}
+[18.267804] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/umbilical/model.config\n'}
+[18.268509] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/umbilical/model.sdf\n'}
+[18.269134] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/package.xml\n'}
+[18.269846] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/auv_underwater_world.world\n'}
+[18.270305] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/empty_underwater.world\n'}
+[18.270773] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/herkules_ship_wreck.world\n'}
+[18.271232] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/herkules_ship_wreck_test.world\n'}
+[18.271795] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/lake.world\n'}
+[18.272249] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/mangalia.world\n'}
+[18.272695] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/mangalia_manipulation.world\n'}
+[18.273155] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/munkholmen.world\n'}
+[18.273600] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/ocean_waves.world\n'}
+[18.274051] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/subsea_bop_panel.world\n'}
+[18.274502] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/underwater_heightmap.world\n'}
+[18.287899] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/water_world/__init__.py\n'}
+[18.288620] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/water_world/publish_world_models.py\n'}
+[18.289119] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/water_world/transformations.py\n'}
+[18.296254] (-) TimerEvent: {}
+[18.298187] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[18.299721] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[18.301110] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[18.302379] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[18.303694] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[18.304651] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[18.305600] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[18.319103] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[18.323301] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[18.324835] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[18.327589] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[18.329029] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[18.385507] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[18.386539] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.387315] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.387998] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[18.396383] (-) TimerEvent: {}
+[18.402733] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[18.434231] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[18.496618] (-) TimerEvent: {}
+[18.597060] (-) TimerEvent: {}
+[18.697503] (-) TimerEvent: {}
+[18.740186] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[18.797773] (-) TimerEvent: {}
+[18.899858] (-) TimerEvent: {}
+[18.924403] (choirbot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/yoko/turtlebot3_ws/install/choirbot', '--editable', '--build-directory', '/home/yoko/turtlebot3_ws/build/choirbot/build', '--no-deps', 'install_data', '--install-dir', '/home/yoko/turtlebot3_ws/install/choirbot'], 'cwd': '/home/yoko/turtlebot3_ws/build/choirbot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yoko', 'SSH_AGENT_PID': '72372', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib', 'HOME': '/home/yoko', 'OLDPWD': '/home/yoko', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '72210', 'UNZIP': '-O CP932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'yoko', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '8:2310254', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yoko', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/yoko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/yoko:@/tmp/.ICE-unix/72409,unix/yoko:/tmp/.ICE-unix/72409', 'INVOCATION_ID': 'b6fed0660d77416e935fc9bd06f0b058', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4bb41e8e_b674_40c7_8afe_0b947996d8a0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yoko/turtlebot3_ws/install/choirbot_interfaces', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yoko/turtlebot3_ws/build/choirbot', 'ZIPINFO': '-O CP932', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/yoko/turtlebot3_ws/install/choirbot_interfaces'}, 'shell': False}
+[18.958119] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[18.963164] (turtlebot3_simulations) JobStarted: {'identifier': 'turtlebot3_simulations'}
+[18.999801] (-) TimerEvent: {}
+[19.069427] (turtlebot3_simulations) JobProgress: {'identifier': 'turtlebot3_simulations', 'progress': 'cmake'}
+[19.099948] (-) TimerEvent: {}
+[19.161025] (turtlebot3_simulations) JobProgress: {'identifier': 'turtlebot3_simulations', 'progress': 'build'}
+[19.161740] (turtlebot3_simulations) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yoko/turtlebot3_ws/build/turtlebot3_simulations', '--', '-j8', '-l8'], 'cwd': '/home/yoko/turtlebot3_ws/build/turtlebot3_simulations', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yoko'), ('SSH_AGENT_PID', '72372'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('HOME', '/home/yoko'), ('OLDPWD', '/home/yoko'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '72210'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'yoko'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:2310254'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yoko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/yoko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yoko:@/tmp/.ICE-unix/72409,unix/yoko:/tmp/.ICE-unix/72409'), ('INVOCATION_ID', 'b6fed0660d77416e935fc9bd06f0b058'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4bb41e8e_b674_40c7_8afe_0b947996d8a0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yoko/turtlebot3_ws/build/turtlebot3_simulations'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node')]), 'shell': False}
+[19.200166] (-) TimerEvent: {}
+[19.300594] (-) TimerEvent: {}
+[19.323449] (turtlebot3_simulations) CommandEnded: {'returncode': 0}
+[19.349097] (turtlebot3_simulations) JobProgress: {'identifier': 'turtlebot3_simulations', 'progress': 'install'}
+[19.349945] (turtlebot3_simulations) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yoko/turtlebot3_ws/build/turtlebot3_simulations'], 'cwd': '/home/yoko/turtlebot3_ws/build/turtlebot3_simulations', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yoko'), ('SSH_AGENT_PID', '72372'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('HOME', '/home/yoko'), ('OLDPWD', '/home/yoko'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '72210'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'yoko'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:2310254'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yoko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/yoko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yoko:@/tmp/.ICE-unix/72409,unix/yoko:/tmp/.ICE-unix/72409'), ('INVOCATION_ID', 'b6fed0660d77416e935fc9bd06f0b058'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4bb41e8e_b674_40c7_8afe_0b947996d8a0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yoko/turtlebot3_ws/build/turtlebot3_simulations'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node')]), 'shell': False}
+[19.373936] (turtlebot3_simulations) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.374935] (turtlebot3_simulations) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.375861] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations\n'}
+[19.376897] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations\n'}
+[19.400732] (-) TimerEvent: {}
+[19.433859] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh\n'}
+[19.465217] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv\n'}
+[19.466057] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh\n'}
+[19.466928] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv\n'}
+[19.500874] (-) TimerEvent: {}
+[19.556991] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash\n'}
+[19.557631] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh\n'}
+[19.558357] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh\n'}
+[19.559150] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv\n'}
+[19.559482] (turtlebot3_simulations) StdoutLine: {'line': b'-- Symlinking: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv\n'}
+[19.572986] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations\n'}
+[19.574186] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake\n'}
+[19.600957] (-) TimerEvent: {}
+[19.611549] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake\n'}
+[19.612470] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml\n'}
+[19.617908] (turtlebot3_simulations) CommandEnded: {'returncode': 0}
+[19.701160] (-) TimerEvent: {}
+[19.748805] (turtlebot3_simulations) JobEnded: {'identifier': 'turtlebot3_simulations', 'rc': 0}
+[19.801374] (-) TimerEvent: {}
+[19.894449] (choirbot) StdoutLine: {'line': b'running develop\n'}
+[19.901517] (-) TimerEvent: {}
+[20.001907] (-) TimerEvent: {}
+[20.102316] (-) TimerEvent: {}
+[20.202762] (-) TimerEvent: {}
+[20.220516] (choirbot) StdoutLine: {'line': b'running egg_info\n'}
+[20.220772] (choirbot) StdoutLine: {'line': b'writing choirbot.egg-info/PKG-INFO\n'}
+[20.221009] (choirbot) StdoutLine: {'line': b'writing dependency_links to choirbot.egg-info/dependency_links.txt\n'}
+[20.221189] (choirbot) StdoutLine: {'line': b'writing entry points to choirbot.egg-info/entry_points.txt\n'}
+[20.221383] (choirbot) StdoutLine: {'line': b'writing requirements to choirbot.egg-info/requires.txt\n'}
+[20.221520] (choirbot) StdoutLine: {'line': b'writing top-level names to choirbot.egg-info/top_level.txt\n'}
+[20.302942] (-) TimerEvent: {}
+[20.403413] (-) TimerEvent: {}
+[20.503785] (-) TimerEvent: {}
+[20.604377] (-) TimerEvent: {}
+[20.704943] (-) TimerEvent: {}
+[20.805582] (-) TimerEvent: {}
+[20.906069] (-) TimerEvent: {}
+[21.006542] (-) TimerEvent: {}
+[21.106994] (-) TimerEvent: {}
+[21.207566] (-) TimerEvent: {}
+[21.210864] (choirbot) StdoutLine: {'line': b"reading manifest file 'choirbot.egg-info/SOURCES.txt'\n"}
+[21.230153] (choirbot) StdoutLine: {'line': b"writing manifest file 'choirbot.egg-info/SOURCES.txt'\n"}
+[21.307721] (-) TimerEvent: {}
+[21.408250] (-) TimerEvent: {}
+[21.508768] (-) TimerEvent: {}
+[21.609336] (-) TimerEvent: {}
+[21.709874] (-) TimerEvent: {}
+[21.810389] (-) TimerEvent: {}
+[21.911022] (-) TimerEvent: {}
+[22.011496] (-) TimerEvent: {}
+[22.058142] (choirbot) StdoutLine: {'line': b'running build_ext\n'}
+[22.111718] (-) TimerEvent: {}
+[22.129549] (choirbot) StdoutLine: {'line': b'Creating /home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages/choirbot.egg-link (link to .)\n'}
+[22.130585] (choirbot) StdoutLine: {'line': b'\n'}
+[22.130736] (choirbot) StdoutLine: {'line': b'Installed /home/yoko/turtlebot3_ws/build/choirbot\n'}
+[22.131026] (choirbot) StdoutLine: {'line': b'running install_data\n'}
+[22.211980] (-) TimerEvent: {}
+[22.250887] (choirbot) CommandEnded: {'returncode': 0}
+[22.312139] (-) TimerEvent: {}
+[22.342700] (choirbot) JobEnded: {'identifier': 'choirbot', 'rc': 0}
+[22.343878] (choirbot_examples) JobStarted: {'identifier': 'choirbot_examples'}
+[22.412283] (-) TimerEvent: {}
+[22.512810] (-) TimerEvent: {}
+[22.613299] (-) TimerEvent: {}
+[22.713666] (-) TimerEvent: {}
+[22.814037] (-) TimerEvent: {}
+[22.914463] (-) TimerEvent: {}
+[23.015517] (-) TimerEvent: {}
+[23.116134] (-) TimerEvent: {}
+[23.210604] (choirbot_examples) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/yoko/turtlebot3_ws/install/choirbot_examples', '--editable', '--build-directory', '/home/yoko/turtlebot3_ws/build/choirbot_examples/build', '--no-deps', 'install_data', '--install-dir', '/home/yoko/turtlebot3_ws/install/choirbot_examples'], 'cwd': '/home/yoko/turtlebot3_ws/build/choirbot_examples', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yoko', 'SSH_AGENT_PID': '72372', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib', 'HOME': '/home/yoko', 'OLDPWD': '/home/yoko', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '72210', 'UNZIP': '-O CP932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'yoko', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '8:2310254', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yoko', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/yoko/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/yoko:@/tmp/.ICE-unix/72409,unix/yoko:/tmp/.ICE-unix/72409', 'INVOCATION_ID': 'b6fed0660d77416e935fc9bd06f0b058', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4bb41e8e_b674_40c7_8afe_0b947996d8a0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yoko/turtlebot3_ws/install/choirbot:/home/yoko/turtlebot3_ws/install/choirbot_interfaces', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yoko/turtlebot3_ws/build/choirbot_examples', 'ZIPINFO': '-O CP932', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yoko/turtlebot3_ws/install/choirbot_examples/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/choirbot:/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/yoko/turtlebot3_ws/install/choirbot_interfaces'}, 'shell': False}
+[23.216443] (-) TimerEvent: {}
+[23.316845] (-) TimerEvent: {}
+[23.417236] (-) TimerEvent: {}
+[23.517547] (-) TimerEvent: {}
+[23.591809] (choirbot_examples) StdoutLine: {'line': b'running develop\n'}
+[23.617742] (-) TimerEvent: {}
+[23.718200] (-) TimerEvent: {}
+[23.818539] (-) TimerEvent: {}
+[23.851738] (choirbot_examples) StdoutLine: {'line': b'running egg_info\n'}
+[23.852011] (choirbot_examples) StdoutLine: {'line': b'writing choirbot_examples.egg-info/PKG-INFO\n'}
+[23.852185] (choirbot_examples) StdoutLine: {'line': b'writing dependency_links to choirbot_examples.egg-info/dependency_links.txt\n'}
+[23.852498] (choirbot_examples) StdoutLine: {'line': b'writing entry points to choirbot_examples.egg-info/entry_points.txt\n'}
+[23.852745] (choirbot_examples) StdoutLine: {'line': b'writing requirements to choirbot_examples.egg-info/requires.txt\n'}
+[23.852884] (choirbot_examples) StdoutLine: {'line': b'writing top-level names to choirbot_examples.egg-info/top_level.txt\n'}
+[23.917375] (choirbot_examples) StdoutLine: {'line': b"reading manifest file 'choirbot_examples.egg-info/SOURCES.txt'\n"}
+[23.918740] (-) TimerEvent: {}
+[23.957393] (choirbot_examples) StdoutLine: {'line': b"writing manifest file 'choirbot_examples.egg-info/SOURCES.txt'\n"}
+[24.017613] (choirbot_examples) StdoutLine: {'line': b'running build_ext\n'}
+[24.018805] (-) TimerEvent: {}
+[24.036540] (choirbot_examples) StdoutLine: {'line': b'Creating /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/python3.8/site-packages/choirbot-examples.egg-link (link to .)\n'}
+[24.037843] (choirbot_examples) StdoutLine: {'line': b'Installing choirbot_containment_guidance script to /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/choirbot_examples\n'}
+[24.038055] (choirbot_examples) StdoutLine: {'line': b'Installing choirbot_containment_integrator script to /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/choirbot_examples\n'}
+[24.038287] (choirbot_examples) StdoutLine: {'line': b'Installing choirbot_containment_rviz script to /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/choirbot_examples\n'}
+[24.038526] (choirbot_examples) StdoutLine: {'line': b'Installing choirbot_formationcontrol_controller script to /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/choirbot_examples\n'}
+[24.038768] (choirbot_examples) StdoutLine: {'line': b'Installing choirbot_formationcontrol_guidance script to /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/choirbot_examples\n'}
+[24.038953] (choirbot_examples) StdoutLine: {'line': b'Installing choirbot_mpc_guidance script to /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/choirbot_examples\n'}
+[24.039160] (choirbot_examples) StdoutLine: {'line': b'Installing choirbot_mpc_integrator script to /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/choirbot_examples\n'}
+[24.039368] (choirbot_examples) StdoutLine: {'line': b'Installing choirbot_mpc_rviz script to /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/choirbot_examples\n'}
+[24.039589] (choirbot_examples) StdoutLine: {'line': b'Installing choirbot_taskassignment_controller script to /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/choirbot_examples\n'}
+[24.039960] (choirbot_examples) StdoutLine: {'line': b'Installing choirbot_taskassignment_guidance script to /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/choirbot_examples\n'}
+[24.040184] (choirbot_examples) StdoutLine: {'line': b'Installing choirbot_taskassignment_planner script to /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/choirbot_examples\n'}
+[24.040332] (choirbot_examples) StdoutLine: {'line': b'Installing choirbot_taskassignment_table script to /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/choirbot_examples\n'}
+[24.040544] (choirbot_examples) StdoutLine: {'line': b'Installing choirbot_turtlebot_spawner script to /home/yoko/turtlebot3_ws/install/choirbot_examples/lib/choirbot_examples\n'}
+[24.040765] (choirbot_examples) StdoutLine: {'line': b'\n'}
+[24.040992] (choirbot_examples) StdoutLine: {'line': b'Installed /home/yoko/turtlebot3_ws/build/choirbot_examples\n'}
+[24.041119] (choirbot_examples) StdoutLine: {'line': b'running install_data\n'}
+[24.081789] (choirbot_examples) CommandEnded: {'returncode': 0}
+[24.119033] (-) TimerEvent: {}
+[24.189347] (choirbot_examples) JobEnded: {'identifier': 'choirbot_examples', 'rc': 0}
+[24.191740] (-) EventReactorShutdown: {}

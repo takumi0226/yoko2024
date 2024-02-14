@@ -1,0 +1,2 @@
+Invoking command in '/home/yoko/turtlebot3_ws/build/message_to_tf': /usr/bin/cmake /home/yoko/turtlebot3_ws/src/tum_simulator/message_to_tf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/yoko/turtlebot3_ws/install/message_to_tf
+Invoked command in '/home/yoko/turtlebot3_ws/build/message_to_tf' returned '1': /usr/bin/cmake /home/yoko/turtlebot3_ws/src/tum_simulator/message_to_tf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/yoko/turtlebot3_ws/install/message_to_tf

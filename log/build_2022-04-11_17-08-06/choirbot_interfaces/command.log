@@ -1,0 +1,4 @@
+Invoking command in '/home/yoko/turtlebot3_ws/build/choirbot_interfaces': /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/choirbot_interfaces -- -j8 -l8
+Invoked command in '/home/yoko/turtlebot3_ws/build/choirbot_interfaces' returned '0': /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/choirbot_interfaces -- -j8 -l8
+Invoking command in '/home/yoko/turtlebot3_ws/build/choirbot_interfaces': /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/choirbot_interfaces
+Invoked command in '/home/yoko/turtlebot3_ws/build/choirbot_interfaces' returned '0': /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/choirbot_interfaces

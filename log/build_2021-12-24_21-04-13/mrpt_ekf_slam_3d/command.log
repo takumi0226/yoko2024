@@ -1,0 +1,2 @@
+Invoking command in '/home/yoko/turtlebot3_ws/build/mrpt_ekf_slam_3d': /usr/bin/cmake /home/yoko/turtlebot3_ws/src/mrpt_slam/mrpt_ekf_slam_3d -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/yoko/turtlebot3_ws/install/mrpt_ekf_slam_3d
+Invoked command in '/home/yoko/turtlebot3_ws/build/mrpt_ekf_slam_3d' returned '1': /usr/bin/cmake /home/yoko/turtlebot3_ws/src/mrpt_slam/mrpt_ekf_slam_3d -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/yoko/turtlebot3_ws/install/mrpt_ekf_slam_3d

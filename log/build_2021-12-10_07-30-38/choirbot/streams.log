@@ -1,0 +1,24 @@
+[0.408s] Invoking command in '/home/yoko/turtlebot3_ws/build/choirbot': AMENT_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/choirbot --editable --build-directory /home/yoko/turtlebot3_ws/build/choirbot/build --no-deps install_data --install-dir /home/yoko/turtlebot3_ws/install/choirbot
+[0.772s] running develop
+[0.969s] running egg_info
+[0.969s] creating choirbot.egg-info
+[0.969s] writing choirbot.egg-info/PKG-INFO
+[0.970s] writing dependency_links to choirbot.egg-info/dependency_links.txt
+[0.970s] writing entry points to choirbot.egg-info/entry_points.txt
+[0.970s] writing requirements to choirbot.egg-info/requires.txt
+[0.970s] writing top-level names to choirbot.egg-info/top_level.txt
+[0.972s] writing manifest file 'choirbot.egg-info/SOURCES.txt'
+[1.039s] reading manifest file 'choirbot.egg-info/SOURCES.txt'
+[1.040s] writing manifest file 'choirbot.egg-info/SOURCES.txt'
+[1.140s] running build_ext
+[1.140s] Creating /home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages/site.py
+[1.144s] Creating /home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages/choirbot.egg-link (link to .)
+[1.145s] 
+[1.145s] Installed /home/yoko/turtlebot3_ws/build/choirbot
+[1.145s] running install_data
+[1.146s] creating /home/yoko/turtlebot3_ws/install/choirbot/share/ament_index
+[1.146s] creating /home/yoko/turtlebot3_ws/install/choirbot/share/ament_index/resource_index
+[1.146s] creating /home/yoko/turtlebot3_ws/install/choirbot/share/ament_index/resource_index/packages
+[1.146s] copying resource/choirbot -> /home/yoko/turtlebot3_ws/install/choirbot/share/ament_index/resource_index/packages
+[1.146s] copying package.xml -> /home/yoko/turtlebot3_ws/install/choirbot/share/choirbot
+[1.180s] Invoked command in '/home/yoko/turtlebot3_ws/build/choirbot' returned '0': AMENT_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/choirbot --editable --build-directory /home/yoko/turtlebot3_ws/build/choirbot/build --no-deps install_data --install-dir /home/yoko/turtlebot3_ws/install/choirbot

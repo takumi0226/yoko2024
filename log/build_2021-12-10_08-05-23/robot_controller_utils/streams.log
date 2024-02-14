@@ -1,0 +1,20 @@
+[0.551s] Invoking command in '/home/yoko/turtlebot3_ws/build/robot_controller_utils': PYTHONPATH=/home/yoko/turtlebot3_ws/install/robot_controller_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/robot_controller_utils --editable --build-directory /home/yoko/turtlebot3_ws/build/robot_controller_utils/build --no-deps
+[0.962s] running develop
+[1.202s] running egg_info
+[1.202s] creating src/robot_spawner_pkg.egg-info
+[1.203s] writing src/robot_spawner_pkg.egg-info/PKG-INFO
+[1.203s] writing dependency_links to src/robot_spawner_pkg.egg-info/dependency_links.txt
+[1.203s] writing entry points to src/robot_spawner_pkg.egg-info/entry_points.txt
+[1.203s] writing requirements to src/robot_spawner_pkg.egg-info/requires.txt
+[1.203s] writing top-level names to src/robot_spawner_pkg.egg-info/top_level.txt
+[1.205s] writing manifest file 'src/robot_spawner_pkg.egg-info/SOURCES.txt'
+[1.255s] package init file 'src/robot_spawner_pkg/__init__.py' not found (or not a regular file)
+[1.256s] reading manifest file 'src/robot_spawner_pkg.egg-info/SOURCES.txt'
+[1.257s] writing manifest file 'src/robot_spawner_pkg.egg-info/SOURCES.txt'
+[1.316s] running build_ext
+[1.316s] Creating /home/yoko/turtlebot3_ws/install/robot_controller_utils/lib/python3.8/site-packages/site.py
+[1.319s] Creating /home/yoko/turtlebot3_ws/install/robot_controller_utils/lib/python3.8/site-packages/robot-spawner-pkg.egg-link (link to src)
+[1.320s] Installing spawn_turtlebot script to /home/yoko/turtlebot3_ws/install/robot_controller_utils/lib/robot_spawner_pkg
+[1.320s] 
+[1.321s] Installed /home/yoko/turtlebot3_ws/build/robot_controller_utils/src
+[1.523s] Invoked command in '/home/yoko/turtlebot3_ws/build/robot_controller_utils' returned '0': PYTHONPATH=/home/yoko/turtlebot3_ws/install/robot_controller_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/robot_controller_utils --editable --build-directory /home/yoko/turtlebot3_ws/build/robot_controller_utils/build --no-deps

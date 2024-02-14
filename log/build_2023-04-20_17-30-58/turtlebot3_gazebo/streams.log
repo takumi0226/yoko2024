@@ -1,0 +1,396 @@
+[0.423s] Invoking command in '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/turtlebot3_gazebo -- -j8 -l8
+[1.340s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.384s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.704s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.669s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.258s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[3.283s] -- Looking for ignition-math6 -- found version 6.13.0
+[3.341s] -- Searching for dependencies of ignition-math6
+[3.359s] -- Looking for OGRE...
+[3.439s] -- Found Ogre Ghadamon (1.9.0)
+[3.464s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.478s] -- Looking for OGRE_Paging...
+[3.478s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.478s] -- Looking for OGRE_Terrain...
+[3.478s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.479s] -- Looking for OGRE_Property...
+[3.479s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.479s] -- Looking for OGRE_RTShaderSystem...
+[3.479s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.479s] -- Looking for OGRE_Volume...
+[3.479s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.479s] -- Looking for OGRE_Overlay...
+[3.480s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.020s] -- Looking for ignition-math6 -- found version 6.13.0
+[4.021s] -- Looking for ignition-transport8 -- found version 8.3.0
+[4.021s] -- Searching for dependencies of ignition-transport8
+[4.048s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[4.065s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.070s] -- Checking for module 'libzmq >= 4'
+[4.326s] --   Found libzmq , version 4.3.2
+[4.387s] -- Checking for module 'uuid'
+[4.442s] --   Found uuid, version 2.34.0
+[4.538s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[4.539s] -- Searching for dependencies of ignition-msgs5
+[4.568s] -- Looking for ignition-math6 -- found version 6.13.0
+[4.579s] -- Checking for module 'tinyxml2'
+[4.628s] --   Found tinyxml2, version 6.2.0
+[4.684s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[4.707s] -- Looking for ignition-common3 -- found version 3.14.2
+[4.707s] -- Searching for dependencies of ignition-common3
+[4.708s] -- Looking for dlfcn.h - found
+[4.708s] -- Looking for libdl - found
+[4.722s] -- Searching for <ignition-common3> component [graphics]
+[4.732s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[4.733s] -- Searching for dependencies of ignition-common3-graphics
+[4.734s] -- Looking for ignition-math6 -- found version 6.13.0
+[4.737s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[4.738s] -- Searching for dependencies of ignition-fuel_tools4
+[4.843s] -- Checking for module 'jsoncpp'
+[4.871s] --   Found jsoncpp, version 1.7.4
+[4.938s] -- Checking for module 'libzip'
+[5.005s] --   Found libzip, version 1.5.1
+[5.063s] -- Looking for ignition-common3 -- found version 3.14.2
+[5.063s] -- Looking for ignition-math6 -- found version 6.13.0
+[5.064s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[5.066s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[5.066s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[5.104s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.109s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.485s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[5.605s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.666s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.669s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.932s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[6.066s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[6.406s] -- Configuring done
+[8.407s] -- Generating done
+[8.412s] -- Build files have been written to: /home/yoko/turtlebot3_ws/build/turtlebot3_gazebo
+[8.531s] [35m[1mScanning dependencies of target obstacle1[0m
+[8.538s] [35m[1mScanning dependencies of target obstacles[0m
+[8.541s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[8.548s] [35m[1mScanning dependencies of target obstacle2[0m
+[9.186s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[11.764s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[11.769s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[11.770s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[24.740s] [ 62%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[25.347s] [ 62%] Built target turtlebot3_drive
+[42.419s] [ 75%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[42.453s] [ 87%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[42.492s] [100%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[43.005s] [100%] Built target obstacle2
+[43.025s] [100%] Built target obstacles
+[43.032s] [100%] Built target obstacle1
+[43.053s] Invoked command in '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/turtlebot3_gazebo -- -j8 -l8
+[43.102s] Invoking command in '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/turtlebot3_gazebo
+[43.116s] -- Install configuration: ""
+[43.117s] -- Execute custom install script
+[43.128s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[43.129s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[43.129s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[43.129s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace.launch.py
+[43.130s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[43.130s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[43.130s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[43.131s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[43.131s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[43.131s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.base.py
+[43.131s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[43.151s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/choirbot_world/meshes/hexagon.dae
+[43.152s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/choirbot_world/meshes/wall.dae
+[43.152s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/choirbot_world/model-1_4.sdf
+[43.152s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/choirbot_world/model.config
+[43.153s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/choirbot_world/model.sdf
+[43.153s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/model.config
+[43.153s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/model.sdf
+[43.154s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/programs/SimpleWaves.frag
+[43.154s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/programs/SimpleWaves.vert
+[43.154s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/scripts/fiducials.material
+[43.155s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/scripts/sand.material
+[43.155s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/scripts/water.material
+[43.155s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/scripts/waves.material
+[43.156s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/License and source for textures.txt
+[43.156s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds.jpg
+[43.156s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds_bk.jpg
+[43.157s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds_dn.jpg
+[43.157s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds_fr.jpg
+[43.157s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds_lf.jpg
+[43.158s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds_rt.jpg
+[43.158s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/clouds_up.jpg
+[43.159s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/fiducials/License and source for textures.txt
+[43.159s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/fiducials/aruco_1.png
+[43.159s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/fiducials/aruco_2.png
+[43.160s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/fiducials/aruco_3.png
+[43.160s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/fiducials/aruco_4.png
+[43.161s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/fiducials/aruco_5.png
+[43.161s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/soil_sand_0045_01.jpg
+[43.161s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/water_water_0046_01.jpg
+[43.162s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/water_water_0051_01.jpg
+[43.162s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/water_water_0076_03_s.jpg
+[43.163s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/water_water_0093_01.jpg
+[43.163s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/ocean_box/textures/wave_normals.dds
+[43.163s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts/course.material
+[43.164s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures/course.png
+[43.164s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.config
+[43.165s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.sdf
+[43.165s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.config
+[43.166s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.sdf
+[43.166s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.config
+[43.166s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.sdf
+[43.167s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/model.config
+[43.167s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts/traffic_bar.material
+[43.167s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures/traffic_bar.png
+[43.168s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.config
+[43.168s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.sdf
+[43.168s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts/traffic_bar.material
+[43.169s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures/traffic_bar.png
+[43.169s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.config
+[43.169s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.sdf
+[43.170s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.config
+[43.170s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.sdf
+[43.170s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.config
+[43.171s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.sdf
+[43.171s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.config
+[43.171s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.sdf
+[43.172s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts/traffic_parking.material
+[43.172s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures/traffic_parking.png
+[43.172s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.config
+[43.173s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.sdf
+[43.173s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts/traffic_stop.material
+[43.173s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures/traffic_stop.png
+[43.174s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.config
+[43.174s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.sdf
+[43.175s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts/tunnel.material
+[43.175s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures/tunnel.png
+[43.176s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.config
+[43.176s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.sdf
+[43.176s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.config
+[43.176s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.sdf
+[43.177s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.config
+[43.177s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.sdf
+[43.178s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_box/meshes/hexagon.dae
+[43.178s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_box/meshes/wall.dae
+[43.178s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_box/model-1_4.sdf
+[43.178s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_box/model.config
+[43.179s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_box/model.sdf
+[43.179s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[43.179s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[43.180s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[43.180s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[43.180s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[43.180s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[43.181s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[43.181s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[43.181s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[43.182s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[43.182s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[43.182s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[43.182s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[43.183s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[43.183s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[43.183s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[43.184s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[43.184s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[43.184s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[43.185s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[43.185s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[43.185s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[43.185s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[43.186s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[43.186s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+[43.187s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+[43.187s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/tire.dae
+[43.188s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+[43.188s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[43.188s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[43.189s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[43.189s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+[43.189s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/tire.dae
+[43.190s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+[43.190s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[43.191s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[43.191s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[43.191s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[43.192s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[43.192s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[43.193s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4_base.sdf
+[43.193s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[43.193s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[43.194s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model_base.sdf
+[43.195s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[43.211s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+[43.211s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger_soturon.model
+[43.211s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/publish_world_models.py
+[43.212s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+[43.212s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+[43.212s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/burger.model
+[43.212s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle.model
+[43.213s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle_pi.model
+[43.213s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/burger.model
+[43.213s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle.model
+[43.214s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle_pi.model
+[43.214s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/burger.model
+[43.214s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle.model
+[43.214s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle_pi.model
+[43.215s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/burger.model
+[43.215s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle.model
+[43.215s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle_pi.model
+[43.215s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/burger.model
+[43.216s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle.model
+[43.216s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle_pi.model
+[43.216s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+[43.217s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+[43.217s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+[43.217s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+[43.217s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger_base.model
+[43.218s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+[43.218s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+[43.218s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/CHANGELOG.rst
+[43.219s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/CMakeLists.txt
+[43.219s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/programs/SimpleWaves.frag
+[43.219s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/programs/SimpleWaves.vert
+[43.220s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/scripts/fiducials.material
+[43.220s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/scripts/sand.material
+[43.220s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/scripts/water.material
+[43.221s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/scripts/waves.material
+[43.221s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/License and source for textures.txt
+[43.221s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds.jpg
+[43.221s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds_bk.jpg
+[43.222s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds_dn.jpg
+[43.222s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds_fr.jpg
+[43.222s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds_lf.jpg
+[43.223s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds_rt.jpg
+[43.223s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/clouds_up.jpg
+[43.223s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/fiducials/License and source for textures.txt
+[43.224s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/fiducials/aruco_1.png
+[43.224s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/fiducials/aruco_2.png
+[43.224s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/fiducials/aruco_3.png
+[43.225s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/fiducials/aruco_4.png
+[43.225s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/fiducials/aruco_5.png
+[43.225s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/soil_sand_0045_01.jpg
+[43.226s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/water_water_0046_01.jpg
+[43.226s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/water_water_0051_01.jpg
+[43.226s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/water_water_0076_03_s.jpg
+[43.227s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/water_water_0093_01.jpg
+[43.227s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/materials/textures/wave_normals.dds
+[43.227s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/Media/models/sea_surface_1000m_x_1000m.dae
+[43.228s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/auv_underwater_world.launch
+[43.228s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/empty_underwater_test.launch
+[43.228s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/empty_underwater_world.launch
+[43.229s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/herkules_ship_wreck.launch
+[43.229s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/herkules_ship_wreck_test.launch
+[43.229s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/lake.launch
+[43.229s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/mangalia.launch
+[43.230s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/mangalia_manipulation.launch
+[43.230s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/munkholmen.launch
+[43.230s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/ocean_waves.launch
+[43.231s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/rov_bop_panel.launch
+[43.231s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/launch/subsea_bop_panel.launch
+[43.231s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/april_tag_36_11_00000/model.config
+[43.231s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/april_tag_36_11_00000/model.sdf
+[43.232s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/aurora_static/meshes/aurora.dae
+[43.232s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/aurora_static/meshes/aurora_collision.stl
+[43.232s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/aurora_static/model.config
+[43.233s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/aurora_static/model.sdf
+[43.233s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/bop_panel/meshes/Valve.dae
+[43.233s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/bop_panel/meshes/VentilBlock.mtl
+[43.234s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/bop_panel/meshes/VentilBlock.obj
+[43.234s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/bop_panel/meshes/VentilBlock.stl
+[43.234s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/bop_panel/model.config
+[43.234s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/bop_panel/model.sdf
+[43.235s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/herkules_seabed/meshes/herkules_seabed.dae
+[43.235s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/herkules_seabed/model.config
+[43.235s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/herkules_seabed/model.sdf
+[43.236s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/herkules_ship_wreck/meshes/herkules.dae
+[43.236s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/herkules_ship_wreck/model.config
+[43.236s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/herkules_ship_wreck/model.sdf
+[43.237s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/hot_stab/meshes/HotStab.dae
+[43.237s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/hot_stab/model.config
+[43.237s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/hot_stab/model.sdf
+[43.238s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/lake/meshes/LakeBottom.dae
+[43.238s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/lake/meshes/WaterSurface.dae
+[43.238s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/lake/model.config
+[43.239s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/lake/model.sdf
+[43.239s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/meshes/170427_Seabed8_textured.blend
+[43.239s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/meshes/170427_Seabed8_textured.dae
+[43.240s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/meshes/License and source for textures.txt
+[43.240s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/meshes/MangaliaTerrain.dae
+[43.240s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/meshes/grass_grass_0101_02_tiled_s.jpg
+[43.241s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/meshes/ground_stone_ground_0029_02_tiled_s.jpg
+[43.241s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/model.config
+[43.241s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/mangalia/model.sdf
+[43.242s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/munkholmen/meshes/munkholmen.dae
+[43.242s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/munkholmen/model.config
+[43.242s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/munkholmen/model.sdf
+[43.243s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/munkholmen_seabed/meshes/seabed.dae
+[43.243s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/munkholmen_seabed/model.config
+[43.243s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/munkholmen_seabed/model.sdf
+[43.244s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/ned_frame/model.config
+[43.244s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/ned_frame/model.sdf
+[43.244s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/ocean/model.config
+[43.245s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/ocean/model.sdf
+[43.245s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/ocean_box/model.config
+[43.245s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/ocean_box/model.sdf
+[43.246s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/meshes/BOP_Panel.dae
+[43.246s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/meshes/License and source texture.txt
+[43.246s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/meshes/SmallValve.dae
+[43.247s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/meshes/Valve.dae
+[43.247s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/meshes/metal_bare_0045_01.jpg
+[43.247s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/model.config
+[43.248s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/rov_bop_panel/model.sdf
+[43.248s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sand_heightmap/meshes/License and source for textures.txt
+[43.248s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sand_heightmap/meshes/heightmap.dae
+[43.249s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sand_heightmap/meshes/soil_sand_0045_01.jpg
+[43.249s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sand_heightmap/model.config
+[43.249s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sand_heightmap/model.sdf
+[43.250s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sea_bottom/model.config
+[43.250s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sea_bottom/model.sdf
+[43.250s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sea_surface/model.config
+[43.251s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/sea_surface/model.sdf
+[43.251s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/t_bar_fork_tool/meshes/TBarForkTool.dae
+[43.251s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/t_bar_fork_tool/model.config
+[43.252s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/t_bar_fork_tool/model.sdf
+[43.252s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/torque_tool/meshes/TorqueTool.dae
+[43.252s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/torque_tool/model.config
+[43.253s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/torque_tool/model.sdf
+[43.253s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/tree/meshes/Tree.dae
+[43.253s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/tree/model.config
+[43.254s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/tree/model.sdf
+[43.254s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/umbilical/model.config
+[43.254s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/models/umbilical/model.sdf
+[43.255s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/package.xml
+[43.255s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/auv_underwater_world.world
+[43.255s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/empty_underwater.world
+[43.256s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/herkules_ship_wreck.world
+[43.256s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/herkules_ship_wreck_test.world
+[43.256s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/lake.world
+[43.257s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/mangalia.world
+[43.257s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/mangalia_manipulation.world
+[43.257s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/munkholmen.world
+[43.258s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/ocean_waves.world
+[43.258s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/subsea_bop_panel.world
+[43.258s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/uuv_gazebo_worlds/worlds/underwater_heightmap.world
+[43.258s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/water_world/__init__.py
+[43.259s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/water_world/publish_world_models.py
+[43.259s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/water_world/transformations.py
+[43.260s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[43.261s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[43.262s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[43.262s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[43.263s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[43.263s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[43.264s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[43.264s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[43.264s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[43.265s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[43.265s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[43.266s] -- Symlinking: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[43.279s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[43.279s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.280s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.280s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[43.281s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[43.281s] -- Up-to-date symlink: /home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[43.289s] Invoked command in '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/turtlebot3_gazebo

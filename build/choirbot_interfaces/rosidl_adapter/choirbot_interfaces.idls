@@ -1,0 +1,5 @@
+/home/yoko/turtlebot3_ws/build/choirbot_interfaces/rosidl_adapter/choirbot_interfaces:action/PositionAction.idl
+/home/yoko/turtlebot3_ws/build/choirbot_interfaces/rosidl_adapter/choirbot_interfaces:msg/PositionTask.idl
+/home/yoko/turtlebot3_ws/build/choirbot_interfaces/rosidl_adapter/choirbot_interfaces:msg/PositionTaskArray.idl
+/home/yoko/turtlebot3_ws/build/choirbot_interfaces/rosidl_adapter/choirbot_interfaces:srv/PositionTaskService.idl
+/home/yoko/turtlebot3_ws/build/choirbot_interfaces/rosidl_adapter/choirbot_interfaces:srv/TaskCompletionService.idl

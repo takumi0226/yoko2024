@@ -1,0 +1,35 @@
+[0.105s] Invoking command in '/home/yoko/turtlebot3_ws/build/mrpt_ekf_slam_3d': /usr/bin/cmake /home/yoko/turtlebot3_ws/src/mrpt_slam/mrpt_ekf_slam_3d -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/yoko/turtlebot3_ws/install/mrpt_ekf_slam_3d
+[1.615s] -- The C compiler identification is GNU 9.3.0
+[2.535s] -- The CXX compiler identification is GNU 9.3.0
+[2.643s] -- Check for working C compiler: /usr/bin/cc
+[2.920s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.922s] -- Detecting C compiler ABI info
+[3.034s] -- Detecting C compiler ABI info - done
+[3.064s] -- Detecting C compile features
+[3.065s] -- Detecting C compile features - done
+[3.073s] -- Check for working CXX compiler: /usr/bin/c++
+[3.229s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.231s] -- Detecting CXX compiler ABI info
+[3.377s] -- Detecting CXX compiler ABI info - done
+[3.406s] -- Detecting CXX compile features
+[3.406s] -- Detecting CXX compile features - done
+[3.426s] CMake Error at CMakeLists.txt:6 (find_package):
+[3.426s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.426s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.427s]   CMake did not find one.
+[3.427s] 
+[3.427s]   Could not find a package configuration file provided by "catkin" with any
+[3.427s]   of the following names:
+[3.427s] 
+[3.428s]     catkinConfig.cmake
+[3.428s]     catkin-config.cmake
+[3.428s] 
+[3.428s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.429s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.429s]   provides a separate development package or SDK, be sure it has been
+[3.430s]   installed.
+[3.431s] 
+[3.433s] 
+[3.434s] -- Configuring incomplete, errors occurred!
+[3.436s] See also "/home/yoko/turtlebot3_ws/build/mrpt_ekf_slam_3d/CMakeFiles/CMakeOutput.log".
+[3.436s] Invoked command in '/home/yoko/turtlebot3_ws/build/mrpt_ekf_slam_3d' returned '1': /usr/bin/cmake /home/yoko/turtlebot3_ws/src/mrpt_slam/mrpt_ekf_slam_3d -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/yoko/turtlebot3_ws/install/mrpt_ekf_slam_3d

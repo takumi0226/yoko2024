@@ -1,0 +1,34 @@
+[0.110s] Invoking command in '/home/yoko/turtlebot3_ws/build/mrpt_ekf_slam_2d': /usr/bin/cmake /home/yoko/turtlebot3_ws/src/mrpt_slam/mrpt_ekf_slam_2d -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/yoko/turtlebot3_ws/install/mrpt_ekf_slam_2d
+[1.628s] -- The C compiler identification is GNU 9.3.0
+[2.547s] -- The CXX compiler identification is GNU 9.3.0
+[2.655s] -- Check for working C compiler: /usr/bin/cc
+[2.947s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.949s] -- Detecting C compiler ABI info
+[3.070s] -- Detecting C compiler ABI info - done
+[3.102s] -- Detecting C compile features
+[3.103s] -- Detecting C compile features - done
+[3.109s] -- Check for working CXX compiler: /usr/bin/c++
+[3.259s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.261s] -- Detecting CXX compiler ABI info
+[3.410s] -- Detecting CXX compiler ABI info - done
+[3.450s] -- Detecting CXX compile features
+[3.450s] -- Detecting CXX compile features - done
+[3.473s] CMake Error at CMakeLists.txt:7 (find_package):
+[3.473s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.473s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.474s]   CMake did not find one.
+[3.474s] 
+[3.474s]   Could not find a package configuration file provided by "catkin" with any
+[3.474s]   of the following names:
+[3.474s] 
+[3.474s]     catkinConfig.cmake
+[3.474s]     catkin-config.cmake
+[3.474s] 
+[3.475s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.475s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.475s]   provides a separate development package or SDK, be sure it has been
+[3.475s]   installed.
+[3.475s] 
+[3.475s] 
+[3.475s] -- Configuring incomplete, errors occurred!
+[3.476s] See also "/home/yoko/turtlebot3_ws/build/mrpt_ekf_slam_2d/CMakeFiles/CMakeOutput.log".

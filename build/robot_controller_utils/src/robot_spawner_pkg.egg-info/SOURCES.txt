@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+src/robot_spawner_pkg/spawn_turtlebot.py
+src/robot_spawner_pkg.egg-info/PKG-INFO
+src/robot_spawner_pkg.egg-info/SOURCES.txt
+src/robot_spawner_pkg.egg-info/dependency_links.txt
+src/robot_spawner_pkg.egg-info/entry_points.txt
+src/robot_spawner_pkg.egg-info/requires.txt
+src/robot_spawner_pkg.egg-info/top_level.txt
+src/robot_spawner_pkg.egg-info/zip-safe

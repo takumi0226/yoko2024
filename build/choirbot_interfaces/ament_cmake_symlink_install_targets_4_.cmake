@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yoko/turtlebot3_ws/build/choirbot_interfaces/rosidl_generator_py/choirbot_interfaces/choirbot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "choirbot_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/choirbot_interfaces")

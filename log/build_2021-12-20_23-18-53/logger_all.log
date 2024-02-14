@@ -1,0 +1,659 @@
+[0.446s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.446s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f10f0145130>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f10f0145130>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f10f0145670>)
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.453s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yoko/turtlebot3_ws'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extension 'ros'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extensions ['cmake', 'python']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extension 'cmake'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extension 'python'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extensions ['python_setup_py']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot) by extension 'python_setup_py'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot) by extension 'ros'
+[0.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ChoiRbot/choirbot' with type 'ros.ament_python' and name 'choirbot'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_examples) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_examples) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_examples) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_examples) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_examples) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_examples) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_examples) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_examples) by extension 'ros'
+[0.480s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ChoiRbot/choirbot_examples' with type 'ros.ament_python' and name 'choirbot_examples'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_interfaces) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_interfaces) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_interfaces) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_interfaces) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_interfaces) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_interfaces) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_interfaces) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/choirbot_interfaces) by extension 'ros'
+[0.481s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ChoiRbot/choirbot_interfaces' with type 'ros.ament_cmake' and name 'choirbot_interfaces'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extension 'ros'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extensions ['cmake', 'python']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extensions ['python_setup_py']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extensions ['cmake', 'python']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extension 'cmake'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extension 'python'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source) by extension 'python_setup_py'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extension 'ros'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extensions ['cmake', 'python']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extension 'cmake'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extension 'python'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extensions ['python_setup_py']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/_static) by extension 'python_setup_py'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extension 'ros'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extensions ['cmake', 'python']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extension 'cmake'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extension 'python'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extensions ['python_setup_py']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/acknowledgements) by extension 'python_setup_py'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extensions ['cmake', 'python']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extension 'cmake'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extension 'python'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extensions ['python_setup_py']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/api_documentation) by extension 'python_setup_py'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extension 'ros'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extensions ['cmake', 'python']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extension 'cmake'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extension 'python'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extensions ['python_setup_py']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/citing) by extension 'python_setup_py'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extension 'ros'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extensions ['cmake', 'python']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extension 'cmake'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extension 'python'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extensions ['python_setup_py']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/examples) by extension 'python_setup_py'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extension 'ros'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extensions ['cmake', 'python']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extension 'cmake'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extension 'python'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extensions ['python_setup_py']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/installation) by extension 'python_setup_py'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extension 'cmake'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extension 'python'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extensions ['python_setup_py']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/ChoiRbot/docs/source/quick_start) by extension 'python_setup_py'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_spawner_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_spawner_pkg) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_spawner_pkg) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_spawner_pkg) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_spawner_pkg) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_spawner_pkg) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_spawner_pkg) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_spawner_pkg) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_spawner_pkg) by extension 'ros'
+[0.494s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_spawner_pkg' with type 'ros.ament_python' and name 'robot_spawner_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ros']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ros'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'cmake'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python_setup_py'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[0.498s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[0.500s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'choirbot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'choirbot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'choirbot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'choirbot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'choirbot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'choirbot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'choirbot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'choirbot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'choirbot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.531s] DEBUG:colcon.colcon_core.verb:Building package 'choirbot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoko/turtlebot3_ws/build/choirbot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoko/turtlebot3_ws/install/choirbot_interfaces', 'merge_install': False, 'path': '/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'robot_spawner_pkg' build argument 'cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'robot_spawner_pkg' build argument 'cmake_target' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'robot_spawner_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'robot_spawner_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'robot_spawner_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'robot_spawner_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'robot_spawner_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'robot_spawner_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'robot_spawner_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.536s] DEBUG:colcon.colcon_core.verb:Building package 'robot_spawner_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoko/turtlebot3_ws/build/robot_spawner_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg', 'merge_install': False, 'path': '/home/yoko/turtlebot3_ws/src/robot_spawner_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.541s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoko/turtlebot3_ws/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/home/yoko/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': True, 'test_result_base': None}
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.545s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/yoko/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'choirbot' build argument 'cmake_args' from command line to 'None'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'choirbot' build argument 'cmake_target' from command line to 'None'
+[0.549s] Level 5:colcon.colcon_core.verb:set package 'choirbot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'choirbot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'choirbot' build argument 'cmake_clean_first' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'choirbot' build argument 'cmake_force_configure' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'choirbot' build argument 'ament_cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'choirbot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'choirbot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.550s] DEBUG:colcon.colcon_core.verb:Building package 'choirbot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoko/turtlebot3_ws/build/choirbot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoko/turtlebot3_ws/install/choirbot', 'merge_install': False, 'path': '/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot', 'symlink_install': True, 'test_result_base': None}
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.555s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoko/turtlebot3_ws/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/yoko/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': True, 'test_result_base': None}
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'choirbot_examples' build argument 'cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'choirbot_examples' build argument 'cmake_target' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'choirbot_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'choirbot_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'choirbot_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'choirbot_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'choirbot_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'choirbot_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'choirbot_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.559s] DEBUG:colcon.colcon_core.verb:Building package 'choirbot_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yoko/turtlebot3_ws/build/choirbot_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yoko/turtlebot3_ws/install/choirbot_examples', 'merge_install': False, 'path': '/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot_examples', 'symlink_install': True, 'test_result_base': None}
+[0.559s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.563s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.563s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot_interfaces' with build type 'ament_cmake'
+[0.563s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot_interfaces'
+[0.569s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.573s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.577s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yoko/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[0.577s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yoko/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node'
+[0.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.584s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.587s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yoko/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[0.587s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yoko/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo'
+[0.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.595s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.599s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yoko/turtlebot3_ws/src/robot_spawner_pkg' with build type 'ament_python'
+[0.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_spawner_pkg', 'ament_prefix_path')
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/share/robot_spawner_pkg/hook/ament_prefix_path.ps1'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/share/robot_spawner_pkg/hook/ament_prefix_path.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/share/robot_spawner_pkg/hook/ament_prefix_path.sh'
+[0.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.605s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.610s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoko/turtlebot3_ws/build/choirbot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/choirbot_interfaces -- -j8 -l8
+[0.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoko/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/turtlebot3_fake_node -- -j8 -l8
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/turtlebot3_gazebo -- -j8 -l8
+[1.099s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'robot_spawner_pkg' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.100s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'robot_spawner_pkg' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.100s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yoko/turtlebot3_ws/src/robot_spawner_pkg'
+[1.104s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.104s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.112s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoko/turtlebot3_ws/build/choirbot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/choirbot_interfaces -- -j8 -l8
+[1.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoko/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/turtlebot3_fake_node -- -j8 -l8
+[1.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/turtlebot3_gazebo -- -j8 -l8
+[1.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoko/turtlebot3_ws/build/robot_spawner_pkg': PYTHONPATH=/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/robot_spawner_pkg --editable --build-directory /home/yoko/turtlebot3_ws/build/robot_spawner_pkg/build --no-deps
+[1.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoko/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/turtlebot3_fake_node
+[1.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/turtlebot3_gazebo
+[1.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoko/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/turtlebot3_fake_node
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node' for CMake module files
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node' for CMake config files
+[1.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[1.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/lib'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/bin'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/lib/python3.8/site-packages'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[1.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[1.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[1.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[1.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[1.275s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoko/turtlebot3_ws/build/choirbot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/choirbot_interfaces
+[1.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo' for CMake module files
+[1.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoko/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/turtlebot3_gazebo
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo' for CMake config files
+[1.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[1.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/lib'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/bin'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/lib/python3.8/site-packages'
+[1.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[1.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[1.307s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[1.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node' for CMake module files
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node' for CMake config files
+[1.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[1.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/lib'
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/bin'
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/lib/python3.8/site-packages'
+[1.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[1.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[1.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[1.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[1.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo' for CMake module files
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo' for CMake config files
+[1.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[1.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/lib'
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/bin'
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/lib/python3.8/site-packages'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[1.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[1.369s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yoko/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_simulations' with build type 'ament_cmake'
+[1.369s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yoko/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_simulations'
+[1.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.379s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoko/turtlebot3_ws/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node:/home/yoko/turtlebot3_ws/install/turtlebot3_simulations:/home/yoko/turtlebot3_ws/install/choirbot_interfaces:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/turtlebot3_simulations -- -j8 -l8
+[1.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoko/turtlebot3_ws/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node:/home/yoko/turtlebot3_ws/install/turtlebot3_simulations:/home/yoko/turtlebot3_ws/install/choirbot_interfaces:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/turtlebot3_simulations -- -j8 -l8
+[1.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoko/turtlebot3_ws/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node:/home/yoko/turtlebot3_ws/install/turtlebot3_simulations:/home/yoko/turtlebot3_ws/install/choirbot_interfaces:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/turtlebot3_simulations
+[1.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations' for CMake module files
+[1.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoko/turtlebot3_ws/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node:/home/yoko/turtlebot3_ws/install/turtlebot3_simulations:/home/yoko/turtlebot3_ws/install/choirbot_interfaces:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/turtlebot3_simulations
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations' for CMake config files
+[1.525s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[1.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/bin'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/lib/python3.8/site-packages'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[1.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[1.538s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(choirbot_interfaces)
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_interfaces' for CMake module files
+[1.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoko/turtlebot3_ws/build/choirbot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --install /home/yoko/turtlebot3_ws/build/choirbot_interfaces
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_interfaces' for CMake config files
+[1.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('choirbot_interfaces', 'cmake_prefix_path')
+[1.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/cmake_prefix_path.ps1'
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/cmake_prefix_path.dsv'
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/cmake_prefix_path.sh'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib'
+[1.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('choirbot_interfaces', 'ld_library_path_lib')
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/ld_library_path_lib.ps1'
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/ld_library_path_lib.dsv'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/ld_library_path_lib.sh'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/bin'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/pkgconfig/choirbot_interfaces.pc'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages'
+[1.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('choirbot_interfaces', 'pythonpath')
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/pythonpath.ps1'
+[1.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/pythonpath.dsv'
+[1.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/pythonpath.sh'
+[1.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.ps1'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.dsv'
+[1.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.sh'
+[1.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.bash'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.zsh'
+[1.559s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/colcon-core/packages/choirbot_interfaces)
+[1.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations' for CMake module files
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations' for CMake config files
+[1.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[1.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/bin'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/lib/python3.8/site-packages'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[1.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoko/turtlebot3_ws/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[1.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(choirbot_interfaces)
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_interfaces' for CMake module files
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_interfaces' for CMake config files
+[1.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('choirbot_interfaces', 'cmake_prefix_path')
+[1.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/cmake_prefix_path.ps1'
+[1.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/cmake_prefix_path.dsv'
+[1.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/cmake_prefix_path.sh'
+[1.682s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib'
+[1.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('choirbot_interfaces', 'ld_library_path_lib')
+[1.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/ld_library_path_lib.ps1'
+[1.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/ld_library_path_lib.dsv'
+[1.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/ld_library_path_lib.sh'
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/bin'
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/pkgconfig/choirbot_interfaces.pc'
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages'
+[1.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('choirbot_interfaces', 'pythonpath')
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/pythonpath.ps1'
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/pythonpath.dsv'
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/hook/pythonpath.sh'
+[1.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.ps1'
+[1.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.dsv'
+[1.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.sh'
+[1.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.bash'
+[1.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/choirbot_interfaces/package.zsh'
+[1.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoko/turtlebot3_ws/install/choirbot_interfaces/share/colcon-core/packages/choirbot_interfaces)
+[1.692s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot' with build type 'ament_python'
+[1.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('choirbot', 'ament_prefix_path')
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot/share/choirbot/hook/ament_prefix_path.ps1'
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/choirbot/share/choirbot/hook/ament_prefix_path.dsv'
+[1.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot/share/choirbot/hook/ament_prefix_path.sh'
+[1.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.700s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.080s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot'
+[2.082s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.082s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.087s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_spawner_pkg', 'pythonpath_develop')
+[2.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/build/robot_spawner_pkg/src/share/robot_spawner_pkg/hook/pythonpath_develop.ps1'
+[2.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoko/turtlebot3_ws/build/robot_spawner_pkg' returned '0': PYTHONPATH=/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/robot_spawner_pkg --editable --build-directory /home/yoko/turtlebot3_ws/build/robot_spawner_pkg/build --no-deps
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/build/robot_spawner_pkg/src/share/robot_spawner_pkg/hook/pythonpath_develop.dsv'
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/build/robot_spawner_pkg/src/share/robot_spawner_pkg/hook/pythonpath_develop.sh'
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg' for CMake module files
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg' for CMake config files
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib'
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/bin'
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/pkgconfig/robot_spawner_pkg.pc'
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages'
+[2.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_spawner_pkg', 'pythonpath')
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/share/robot_spawner_pkg/hook/pythonpath.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/share/robot_spawner_pkg/hook/pythonpath.dsv'
+[2.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/share/robot_spawner_pkg/hook/pythonpath.sh'
+[2.108s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_spawner_pkg)
+[2.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/share/robot_spawner_pkg/package.ps1'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/share/robot_spawner_pkg/package.dsv'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/share/robot_spawner_pkg/package.sh'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/share/robot_spawner_pkg/package.bash'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/share/robot_spawner_pkg/package.zsh'
+[2.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/share/colcon-core/packages/robot_spawner_pkg)
+[2.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoko/turtlebot3_ws/build/choirbot': CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces:/home/yoko/turtlebot3_ws/install/turtlebot3_simulations:/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node PYTHONPATH=/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/robot_spawner_pkg/src:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/robot_controller_utils/src:/home/yoko/turtlebot3_ws/install/robot_controller_utils/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot_examples/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/choirbot:/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/choirbot --editable --build-directory /home/yoko/turtlebot3_ws/build/choirbot/build --no-deps install_data --install-dir /home/yoko/turtlebot3_ws/install/choirbot
+[2.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('choirbot', 'pythonpath_develop')
+[2.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/build/choirbot/share/choirbot/hook/pythonpath_develop.ps1'
+[2.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoko/turtlebot3_ws/build/choirbot' returned '0': CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces:/home/yoko/turtlebot3_ws/install/turtlebot3_simulations:/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node PYTHONPATH=/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/robot_spawner_pkg/src:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/robot_controller_utils/src:/home/yoko/turtlebot3_ws/install/robot_controller_utils/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot_examples/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/choirbot:/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/choirbot --editable --build-directory /home/yoko/turtlebot3_ws/build/choirbot/build --no-deps install_data --install-dir /home/yoko/turtlebot3_ws/install/choirbot
+[2.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/build/choirbot/share/choirbot/hook/pythonpath_develop.dsv'
+[2.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/build/choirbot/share/choirbot/hook/pythonpath_develop.sh'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot' for CMake module files
+[2.872s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot' for CMake config files
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot/lib'
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot/bin'
+[2.874s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot/lib/pkgconfig/choirbot.pc'
+[2.874s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages'
+[2.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('choirbot', 'pythonpath')
+[2.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot/share/choirbot/hook/pythonpath.ps1'
+[2.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/choirbot/share/choirbot/hook/pythonpath.dsv'
+[2.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot/share/choirbot/hook/pythonpath.sh'
+[2.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(choirbot)
+[2.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot/share/choirbot/package.ps1'
+[2.878s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoko/turtlebot3_ws/install/choirbot/share/choirbot/package.dsv'
+[2.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot/share/choirbot/package.sh'
+[2.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot/share/choirbot/package.bash'
+[2.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot/share/choirbot/package.zsh'
+[2.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoko/turtlebot3_ws/install/choirbot/share/colcon-core/packages/choirbot)
+[2.881s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot_examples' with build type 'ament_python'
+[2.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('choirbot_examples', 'ament_prefix_path')
+[2.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_examples/share/choirbot_examples/hook/ament_prefix_path.ps1'
+[2.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/choirbot_examples/share/choirbot_examples/hook/ament_prefix_path.dsv'
+[2.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_examples/share/choirbot_examples/hook/ament_prefix_path.sh'
+[2.886s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.886s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.889s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.293s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot_examples'
+[3.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.298s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yoko/turtlebot3_ws/build/choirbot_examples': AMENT_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot:/home/yoko/turtlebot3_ws/install/turtlebot3_simulations:/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot_interfaces:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces:/home/yoko/turtlebot3_ws/install/turtlebot3_simulations:/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node PYTHONPATH=/home/yoko/turtlebot3_ws/install/choirbot_examples/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/choirbot:/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/robot_spawner_pkg/src:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/robot_controller_utils/src:/home/yoko/turtlebot3_ws/install/robot_controller_utils/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot_examples/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/choirbot_examples --editable --build-directory /home/yoko/turtlebot3_ws/build/choirbot_examples/build --no-deps install_data --install-dir /home/yoko/turtlebot3_ws/install/choirbot_examples
+[4.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('choirbot_examples', 'pythonpath_develop')
+[4.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/build/choirbot_examples/share/choirbot_examples/hook/pythonpath_develop.ps1'
+[4.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yoko/turtlebot3_ws/build/choirbot_examples' returned '0': AMENT_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot:/home/yoko/turtlebot3_ws/install/turtlebot3_simulations:/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg:/home/yoko/turtlebot3_ws/install/robot_controller_utils:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot_interfaces:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/yoko/turtlebot3_ws/install/choirbot_interfaces:/home/yoko/turtlebot3_ws/install/turtlebot3_simulations:/home/yoko/turtlebot3_ws/install/turtlebot3_gazebo:/home/yoko/turtlebot3_ws/install/turtlebot3_fake_node PYTHONPATH=/home/yoko/turtlebot3_ws/install/choirbot_examples/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/choirbot:/home/yoko/turtlebot3_ws/install/choirbot/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/install/choirbot_interfaces/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/robot_spawner_pkg/src:/home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/robot_controller_utils/src:/home/yoko/turtlebot3_ws/install/robot_controller_utils/lib/python3.8/site-packages:/home/yoko/turtlebot3_ws/build/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot_examples/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/yoko/turtlebot3_ws/install/choirbot_examples --editable --build-directory /home/yoko/turtlebot3_ws/build/choirbot_examples/build --no-deps install_data --install-dir /home/yoko/turtlebot3_ws/install/choirbot_examples
+[4.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/build/choirbot_examples/share/choirbot_examples/hook/pythonpath_develop.dsv'
+[4.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/build/choirbot_examples/share/choirbot_examples/hook/pythonpath_develop.sh'
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_examples' for CMake module files
+[4.141s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_examples' for CMake config files
+[4.143s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_examples/lib'
+[4.143s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_examples/bin'
+[4.144s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_examples/lib/pkgconfig/choirbot_examples.pc'
+[4.144s] Level 1:colcon.colcon_core.environment:checking '/home/yoko/turtlebot3_ws/install/choirbot_examples/lib/python3.8/site-packages'
+[4.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('choirbot_examples', 'pythonpath')
+[4.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_examples/share/choirbot_examples/hook/pythonpath.ps1'
+[4.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yoko/turtlebot3_ws/install/choirbot_examples/share/choirbot_examples/hook/pythonpath.dsv'
+[4.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yoko/turtlebot3_ws/install/choirbot_examples/share/choirbot_examples/hook/pythonpath.sh'
+[4.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(choirbot_examples)
+[4.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot_examples/share/choirbot_examples/package.ps1'
+[4.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yoko/turtlebot3_ws/install/choirbot_examples/share/choirbot_examples/package.dsv'
+[4.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot_examples/share/choirbot_examples/package.sh'
+[4.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot_examples/share/choirbot_examples/package.bash'
+[4.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/yoko/turtlebot3_ws/install/choirbot_examples/share/choirbot_examples/package.zsh'
+[4.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yoko/turtlebot3_ws/install/choirbot_examples/share/colcon-core/packages/choirbot_examples)
+[4.153s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.154s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.169s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.199s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.200s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yoko/turtlebot3_ws/install/local_setup.ps1'
+[4.206s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yoko/turtlebot3_ws/install/_local_setup_util_ps1.py'
+[4.210s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yoko/turtlebot3_ws/install/setup.ps1'
+[4.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yoko/turtlebot3_ws/install/local_setup.sh'
+[4.216s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yoko/turtlebot3_ws/install/_local_setup_util_sh.py'
+[4.217s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yoko/turtlebot3_ws/install/setup.sh'
+[4.221s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yoko/turtlebot3_ws/install/local_setup.bash'
+[4.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yoko/turtlebot3_ws/install/setup.bash'
+[4.226s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yoko/turtlebot3_ws/install/local_setup.zsh'
+[4.226s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yoko/turtlebot3_ws/install/setup.zsh'

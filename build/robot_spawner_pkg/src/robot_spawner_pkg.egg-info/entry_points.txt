@@ -1,0 +1,3 @@
+[console_scripts]
+spawn_turtlebot = robot_spawner_pkg.spawn_turtlebot:main
+

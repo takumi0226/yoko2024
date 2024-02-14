@@ -1,0 +1,10 @@
+{
+  "package_name": "choirbot_interfaces",
+  "non_idl_tuples": [
+    "/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot_interfaces:action/PositionAction.action",
+    "/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot_interfaces:msg/PositionTask.msg",
+    "/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot_interfaces:msg/PositionTaskArray.msg",
+    "/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot_interfaces:srv/PositionTaskService.srv",
+    "/home/yoko/turtlebot3_ws/src/ChoiRbot/choirbot_interfaces:srv/TaskCompletionService.srv"
+  ]
+}

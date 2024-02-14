@@ -1,0 +1,18 @@
+running develop
+running egg_info
+creating src/robot_spawner_pkg.egg-info
+writing src/robot_spawner_pkg.egg-info/PKG-INFO
+writing dependency_links to src/robot_spawner_pkg.egg-info/dependency_links.txt
+writing entry points to src/robot_spawner_pkg.egg-info/entry_points.txt
+writing requirements to src/robot_spawner_pkg.egg-info/requires.txt
+writing top-level names to src/robot_spawner_pkg.egg-info/top_level.txt
+writing manifest file 'src/robot_spawner_pkg.egg-info/SOURCES.txt'
+package init file 'src/robot_spawner_pkg/__init__.py' not found (or not a regular file)
+reading manifest file 'src/robot_spawner_pkg.egg-info/SOURCES.txt'
+writing manifest file 'src/robot_spawner_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages/site.py
+Creating /home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/python3.8/site-packages/robot-spawner-pkg.egg-link (link to src)
+Installing spawn_turtlebot script to /home/yoko/turtlebot3_ws/install/robot_spawner_pkg/lib/robot_spawner_pkg
+
+Installed /home/yoko/turtlebot3_ws/build/robot_spawner_pkg/src

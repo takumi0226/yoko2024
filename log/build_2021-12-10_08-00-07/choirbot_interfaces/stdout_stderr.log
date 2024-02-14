@@ -1,0 +1,14 @@
+[  1%] Built target choirbot_interfaces__cpp
+[ 12%] Built target choirbot_interfaces__rosidl_generator_c
+[ 23%] Built target choirbot_interfaces__rosidl_typesupport_cpp
+[ 34%] Built target choirbot_interfaces__rosidl_typesupport_c
+[ 46%] Built target choirbot_interfaces__rosidl_typesupport_introspection_cpp
+[ 57%] Built target choirbot_interfaces__rosidl_typesupport_introspection_c
+[ 68%] Built target choirbot_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 79%] Built target choirbot_interfaces__rosidl_typesupport_fastrtps_c
+[ 79%] Built target choirbot_interfaces
+[ 80%] Built target choirbot_interfaces__py
+[ 90%] Built target choirbot_interfaces__python
+[100%] Built target choirbot_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target choirbot_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target choirbot_interfaces__rosidl_typesupport_fastrtps_c__pyext

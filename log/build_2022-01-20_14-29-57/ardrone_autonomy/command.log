@@ -1,0 +1,2 @@
+Invoking command in '/home/yoko/turtlebot3_ws/build/ardrone_autonomy': /usr/bin/cmake /home/yoko/turtlebot3_ws/src/ardrone_autonomy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/yoko/turtlebot3_ws/install/ardrone_autonomy
+Invoked command in '/home/yoko/turtlebot3_ws/build/ardrone_autonomy' returned '1': /usr/bin/cmake /home/yoko/turtlebot3_ws/src/ardrone_autonomy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/yoko/turtlebot3_ws/install/ardrone_autonomy

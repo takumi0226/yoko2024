@@ -1,0 +1,15 @@
+[0.064s] Invoking command in '/home/yoko/turtlebot3_ws/build/choirbot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yoko/turtlebot3_ws/install/choirbot_examples:/home/yoko/turtlebot3_ws/install/choirbot:/opt/ros/foxy /usr/bin/cmake --build /home/yoko/turtlebot3_ws/build/choirbot_interfaces -- -j8 -l8
+[0.571s] [  1%] Built target choirbot_interfaces__cpp
+[0.571s] [ 12%] Built target choirbot_interfaces__rosidl_generator_c
+[0.571s] [ 23%] Built target choirbot_interfaces__rosidl_typesupport_cpp
+[0.571s] [ 34%] Built target choirbot_interfaces__rosidl_typesupport_c
+[0.572s] [ 46%] Built target choirbot_interfaces__rosidl_typesupport_introspection_cpp
+[0.572s] [ 57%] Built target choirbot_interfaces__rosidl_typesupport_introspection_c
+[0.572s] [ 68%] Built target choirbot_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.572s] [ 79%] Built target choirbot_interfaces__rosidl_typesupport_fastrtps_c
+[0.572s] [ 79%] Built target choirbot_interfaces
+[0.572s] [ 80%] Built target choirbot_interfaces__py
+[0.573s] [ 90%] Built target choirbot_interfaces__python
+[0.573s] [100%] Built target choirbot_interfaces__rosidl_typesupport_c__pyext
+[0.573s] [100%] Built target choirbot_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.573s] [100%] Built target choirbot_interfaces__rosidl_typesupport_fastrtps_c__pyext
