@@ -1,0 +1,10 @@
+実験環境　
+OS:Ubuntu 20.04.6 LTS
+CPU:Intel Core i7 CPU 870 @ 2.93GHz
+メモリ:16GB
+GPU:GeForce GX 1660 SUPER
+
+使用したソフトウェア
+ROS2: foxy
+Gazebo: version 11.11.0
+言語: Python3
